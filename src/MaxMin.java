@@ -9,7 +9,7 @@ public class MaxMin {
         Max = a[0];
         Min = a[0];
         int len = a.length;
-        for (int i = 1; i < len - 1; i++) {
+        for (int i = 1; i < len - 1; i = i + 2) {
             if (i + 1 > len) {
                 if (a[i] > Max) Max = a[i];
                 if (a[i] < Min) Min = a[i];
