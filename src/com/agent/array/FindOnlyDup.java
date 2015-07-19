@@ -1,4 +1,4 @@
-package com.agenthun;
+package com.agent.array;
 
 public class FindOnlyDup {
 	public static int findOnlyDup(int[] a) {
