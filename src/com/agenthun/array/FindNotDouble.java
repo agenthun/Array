@@ -1,4 +1,4 @@
-package com.agent.array;
+package com.agenthun.array;
 
 public class FindNotDouble {
 	public static int findNotDouble(int[] a) {
