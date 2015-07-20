@@ -10,3 +10,5 @@
     KMin 第K个最小数
     FindNotDouble 找只出现一次的元素
     FindOnlyDup 找只重复一次的元素
+    FindMaxRecursion 递归求最大值
+    FindMaxDiff 找最大差值(动态规划)
