@@ -12,3 +12,5 @@
     FindOnlyDup 找只重复一次的元素
     FindMaxRecursion 递归求最大值
     FindMaxDiff 找最大差值(动态规划)
+    FindMinAbs 求绝对值最小数
+    FindMinDistance 求两元素最小距离
