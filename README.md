@@ -14,3 +14,4 @@
     FindMaxDiff 找最大差值(动态规划)
     FindMinAbs 求绝对值最小数
     FindMinDistance 求两元素最小距离
+    FindFirstIndex 找第一次出现位置下标
