@@ -15,3 +15,6 @@
     FindMinAbs 求绝对值最小数
     FindMinDistance 求两元素最小距离
     FindFirstIndex 找第一次出现位置下标
+    CombineAWithB 合并两有序段成整体有序数组
+    FindSame 找出两有序数组交集
+    IsContinuous 判断数组中数值是否连续相邻
