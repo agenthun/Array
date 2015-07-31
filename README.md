@@ -20,3 +20,4 @@
     IsContinuous 判断数组中数值是否连续相邻
     FindReverseCount 找出反序对个数
     FindMinThreeDistance 找出最小三元组距离
+    BinarySearch 二分查找
