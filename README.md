@@ -22,3 +22,5 @@
     FindReverseCount 找出反序对个数
     FindMinThreeDistance 找出最小三元组距离
     BinarySearch 二分查找
+# LeetCode
+    TwoSum 在无序数组中找出两数相加为特定数
