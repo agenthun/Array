@@ -22,21 +22,17 @@ public class LengthOfLongestSubstring {
         }
         return Math.max(len, hashMap.size());*/
 
-/*        int res = 0, left = 0;
-        int prev[] = new int[300];
+/*        int maxLen = 0, left = 0;
+        int prev[] = new int[256];
 
-        // init prev array
-        for (int i = 0; i < 300; ++i)
-            prev[i] = -1;
-
-        for (int i = 0; i < s.length(); ++i) {
+        for (int i = 0; i < s.length(); i++) {
             if (prev[s.charAt(i)] >= left)
                 left = prev[s.charAt(i)] + 1;
             prev[s.charAt(i)] = i;
-            if (res < i - left + 1)
-                res = i - left + 1;
+            if (maxLen < i - left + 1)
+                maxLen = i - left + 1;
         }
-        return res;*/
+        return maxLen;*/
 
         int i = 0, j = 0;
         int maxLen = 0;
