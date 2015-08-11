@@ -26,3 +26,4 @@
     TwoSum 在无序数组中找出两数相加为特定数
     AddTwoNumbers 两链表各元素相加
     LengthOfLongestSubstring 找最长无重复字符子串
+    LongestPalindrome 最长的回文子串
