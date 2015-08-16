@@ -1,11 +1,9 @@
 package com.agenthun.leetcode;
 
-import java.util.LinkedHashMap;
-
 /**
  * Created by Agent Henry on 2015/8/11.
  */
-public class LengthOfLongestSubstring {
+public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
 /*        int len = 0;
         LinkedHashMap<Character, Integer> hashMap = new LinkedHashMap<>();
@@ -58,6 +56,6 @@ public class LengthOfLongestSubstring {
     public static void main(String[] args) {
         String str = "pwwkew";
         System.out.println(str);
-        System.out.println(new LengthOfLongestSubstring().lengthOfLongestSubstring(str));
+        System.out.println(new LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring(str));
     }
 }
