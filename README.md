@@ -30,4 +30,5 @@
     LongestPalindrome 最长的回文子串
     ZigZagConversion 将字符串以之字形排列
     ReverseInteger 整数反转
-    MedianOfTwoSortedArrays 找出两有序数组中位数
+    MedianOfTwoSortedArrays 找出两有序数组中位数(#List - KMinInArrays)
+    StringToInteger String转Integer
