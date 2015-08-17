@@ -8,6 +8,7 @@
     FindSum 找两两相加和为20的组合
     ShiftK 向右循环移K位
     KMin 第K个最小数
+    KMinInArrays 在两有序数组找第K个最小数
     FindNotDouble 找只出现一次的元素
     FindOnlyDup 找只重复一次的元素
     FindOnlyDupBetweenTwo 两数组找出唯一不同的元素

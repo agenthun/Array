@@ -1,8 +1,5 @@
 package com.agenthun.leetcode;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 /**
  * Created by Agent Henry on 2015/8/16.
  */
@@ -12,13 +9,30 @@ public class MedianOfTwoSortedArrays {
         int n = nums2.length;
         int len = m + n;
         if ((len & 1) == 1) {
-            return findKth(nums1, 0, m - 1, nums2, 0, n - 1, len / 2);
+            return kMinInArrays(nums1, 0, m - 1, nums2, 0, n - 1, len / 2 + 1);
         } else {
-            return (findKth(nums1, 0, m - 1, nums2, 0, n - 1, len / 2 - 1) + findKth(nums1, 0, m - 1, nums2, 0, n - 1, len / 2)) / 2.0;
+            return (kMinInArrays(nums1, 0, m - 1, nums2, 0, n - 1, len / 2) + kMinInArrays(nums1, 0, m - 1, nums2, 0, n - 1, len / 2 + 1)) / 2.0;
         }
     }
 
-    private double findKth(int[] nums1, int begin1, int end1, int[] nums2, int begin2, int end2, int k) {
+    public static double kMinInArrays(int[] a, int aBegin, int aEnd, int[] b, int bBegin, int bEnd, int k) {
+        int aLen = aEnd - aBegin + 1;
+        int bLen = bEnd - bBegin + 1;
+        if (aLen == 0) return b[bBegin + k - 1];
+        if (bLen == 0) return a[aBegin + k - 1];
+        if (k == 1) return Math.min(a[aBegin], b[bBegin]);
+
+        int pa = Math.min(k / 2, aLen), pb = k - pa;
+        if (a[aBegin + pa - 1] < b[bBegin + pb - 1]) {
+            aBegin += pa;
+            k -= pa;
+        } else {
+            bBegin += pb;
+            k -= pb;
+        }
+        return kMinInArrays(a, aBegin, aEnd, b, bBegin, bEnd, k);
+    }
+/*    private double findKth(int[] nums1, int begin1, int end1, int[] nums2, int begin2, int end2, int k) {
         int len1 = end1 - begin1 + 1;
         int len2 = end2 - begin2 + 1;
 
@@ -40,8 +54,7 @@ public class MedianOfTwoSortedArrays {
             begin1 = mid1 + 1;
         }
         return findKth(nums1, begin1, end1, nums2, begin2, end2, k);
-    }
-
+    }*/
 
     public static void main(String[] args) {
         int[] a1 = {1, 3, 5, 7, 9};
