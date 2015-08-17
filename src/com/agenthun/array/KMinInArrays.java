@@ -34,6 +34,8 @@ public class KMinInArrays {
             System.out.print(a2[i] + " ");
         }
         System.out.println();
-        System.out.println("KMinInArrays = " + kMinInArrays(a1, 0, a1.length - 1, a2, 0, a2.length - 1, 5));
+
+        int k = 7;
+        System.out.println("KMinInArrays(" + k + ") = " + kMinInArrays(a1, 0, a1.length - 1, a2, 0, a2.length - 1, k));
     }
 }
