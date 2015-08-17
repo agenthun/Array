@@ -9,13 +9,13 @@ public class MedianOfTwoSortedArrays {
         int n = nums2.length;
         int len = m + n;
         if ((len & 1) == 1) {
-            return kMinInArrays(nums1, 0, m - 1, nums2, 0, n - 1, len / 2 + 1);
+            return kMinInArrays(nums1, 0, m - 1, nums2, 0, n - 1, len / 2);
         } else {
-            return (kMinInArrays(nums1, 0, m - 1, nums2, 0, n - 1, len / 2) + kMinInArrays(nums1, 0, m - 1, nums2, 0, n - 1, len / 2 + 1)) / 2.0;
+            return (kMinInArrays(nums1, 0, m - 1, nums2, 0, n - 1, len / 2 - 1) + kMinInArrays(nums1, 0, m - 1, nums2, 0, n - 1, len / 2)) * 0.5;
         }
     }
 
-    public static double kMinInArrays(int[] a, int aBegin, int aEnd, int[] b, int bBegin, int bEnd, int k) {
+/*    public double kMinInArrays(int[] a, int aBegin, int aEnd, int[] b, int bBegin, int bEnd, int k) {
         int aLen = aEnd - aBegin + 1;
         int bLen = bEnd - bBegin + 1;
         if (aLen == 0) return b[bBegin + k - 1];
@@ -31,8 +31,9 @@ public class MedianOfTwoSortedArrays {
             k -= pb;
         }
         return kMinInArrays(a, aBegin, aEnd, b, bBegin, bEnd, k);
-    }
-/*    private double findKth(int[] nums1, int begin1, int end1, int[] nums2, int begin2, int end2, int k) {
+    }*/
+
+    public double kMinInArrays(int[] nums1, int begin1, int end1, int[] nums2, int begin2, int end2, int k) {
         int len1 = end1 - begin1 + 1;
         int len2 = end2 - begin2 + 1;
 
@@ -40,8 +41,8 @@ public class MedianOfTwoSortedArrays {
         if (len2 == 0) return nums1[begin1 + k];
         if (k == 0) return nums1[begin1] < nums2[begin2] ? nums1[begin1] : nums2[begin2];
 
-        int mid1 = len1 * k / (len1 + len2);
-        int mid2 = k - mid1 - 1;
+        int mid1 = len1 * k / (len1 + len2);// a's middle count
+        int mid2 = k - mid1 - 1;// b's middle count
         mid1 += begin1;
         mid2 += begin2;
         if (nums1[mid1] > nums2[mid2]) {
@@ -53,8 +54,8 @@ public class MedianOfTwoSortedArrays {
             end2 = mid2;
             begin1 = mid1 + 1;
         }
-        return findKth(nums1, begin1, end1, nums2, begin2, end2, k);
-    }*/
+        return kMinInArrays(nums1, begin1, end1, nums2, begin2, end2, k);
+    }
 
     public static void main(String[] args) {
         int[] a1 = {1, 3, 5, 7, 9};

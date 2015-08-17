@@ -12,7 +12,8 @@ public class KMinInArrays {
         if (bLen == 0) return a[aBegin + k - 1];
         if (k == 1) return Math.min(a[aBegin], b[bBegin]);
 
-        int pa = Math.min(k / 2, aLen), pb = k - pa;
+        int pa = aLen * k / (aLen + bLen);//Math.min(k / 2, aLen);
+        int pb = k - pa;
         if (a[aBegin + pa - 1] < b[bBegin + pb - 1]) {
             aBegin += pa;
             k -= pa;
@@ -21,6 +22,38 @@ public class KMinInArrays {
             k -= pb;
         }
         return kMinInArrays(a, aBegin, aEnd, b, bBegin, bEnd, k);
+    }
+
+    public static int findKth(int[] A, int aStart, int aEnd, int[] B, int bStart, int bEnd, int k) {
+
+        int aLen = aEnd - aStart + 1;
+        int bLen = bEnd - bStart + 1;
+
+        // Handle special cases
+        if (aLen == 0)
+            return B[bStart + k];
+        if (bLen == 0)
+            return A[aStart + k];
+        if (k == 0)
+            return A[aStart] < B[bStart] ? A[aStart] : B[bStart];
+
+        int aMid = aLen * k / (aLen + bLen); // a's middle count
+        int bMid = k - aMid - 1; // b's middle count
+
+        // make aMid and bMid to be array index
+        aMid = aMid + aStart;
+        bMid = bMid + bStart;
+
+        if (A[aMid] > B[bMid]) {
+            k = k - (bMid - bStart + 1);
+            aEnd = aMid;
+            bStart = bMid + 1;
+        } else {
+            k = k - (aMid - aStart + 1);
+            bEnd = bMid;
+            aStart = aMid + 1;
+        }
+        return findKth(A, aStart, aEnd, B, bStart, bEnd, k);
     }
 
     public static void main(String[] args) {
@@ -35,7 +68,8 @@ public class KMinInArrays {
         }
         System.out.println();
 
-        int k = 7;
+        int k = 6;
         System.out.println("KMinInArrays(" + k + ") = " + kMinInArrays(a1, 0, a1.length - 1, a2, 0, a2.length - 1, k));
+        System.out.println("findKth(" + k + ") = " + findKth(a1, 0, a1.length - 1, a2, 0, a2.length - 1, k - 1));
     }
 }
