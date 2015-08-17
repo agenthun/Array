@@ -5,6 +5,7 @@ package com.agenthun.array;
  */
 public class KMinInArrays {
 
+    //kMinInArrays有Bug, 数组下标溢出
     public static int kMinInArrays(int[] a, int aBegin, int aEnd, int[] b, int bBegin, int bEnd, int k) {
         int aLen = aEnd - aBegin + 1;
         int bLen = bEnd - bBegin + 1;
