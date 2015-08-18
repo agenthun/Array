@@ -29,7 +29,7 @@ public class StringToInteger {
     }
 
     public static void main(String[] args) {
-        String s = "        -2a";
+        String s = "        ---22a";
         System.out.println(s + " = " + new StringToInteger().myAtoi(s));
     }
 }

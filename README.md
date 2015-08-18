@@ -32,3 +32,4 @@
     ReverseInteger 整数反转
     MedianOfTwoSortedArrays 找出两有序数组中位数(#List - KMinInArrays)
     StringToInteger String转Integer
+    PalindromeNumber 不用多于空间判断数是否为回文数
