@@ -11,7 +11,6 @@ public class PalindromeNumber {
         while (x / div >= 10) {
             div *= 10;
         }
-        System.out.println(div);
         while (x != 0) {
             int left = x / div;
             int right = x % 10;
