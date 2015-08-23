@@ -5,7 +5,7 @@
     SecondMax 第二大值
     MaxSubArraySum 求最大子数组和以及位置区间
     FindMostFrequentInArray 找数组中重复元素最多的数
-    FindSum 找两两相加和为20的组合
+    FindSum 有序数中找两两相加和为20的组合
     ShiftK 向右循环移K位
     KMin 第K个最小数
     KMinInArrays 在两有序数组找第K个最小数
@@ -24,7 +24,8 @@
     FindMinThreeDistance 找出最小三元组距离
     BinarySearch 二分查找
 # LeetCode
-    TwoSum 在无序数组中找出两数相加为特定数
+    TwoSum 在无序数组中找出两数相加为特定数,返回下标
+    ThreeSum 在无序数组中找出3数相加为0的组合,返回组合 /# List - FindSum
     AddTwoNumbers 两链表各元素相加
     LongestSubstringWithoutRepeatingCharacters 找最长无重复字符子串
     LongestPalindrome 最长的回文子串
