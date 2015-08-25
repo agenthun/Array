@@ -8,6 +8,7 @@ import java.util.List;
  */
 public class LetterCombinationsOfAPhoneNumber {
     public List<String> letterCombinations(String digits) {
+        ArrayList<String> list = new ArrayList<>();
         String[] map = {
                 "",
                 "",
@@ -15,14 +16,15 @@ public class LetterCombinationsOfAPhoneNumber {
                 "def",
                 "ghi",
                 "jkl",
-                "mmo",
+                "mno",
                 "pqrs",
                 "tuv",
                 "wxyz"
         };
-        ArrayList<String> list = new ArrayList<>();
-        char[] temp = new char[digits.length()];
-        dfsGetStr(digits, 0, temp, map, list);
+        String digitsTemp = digits.trim();
+        if (digitsTemp == null || digitsTemp.length() < 1) return list;
+        char[] temp = new char[digitsTemp.length()];
+        dfsGetStr(digitsTemp, 0, temp, map, list);
         return list;
     }
 
