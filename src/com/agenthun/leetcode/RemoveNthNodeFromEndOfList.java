@@ -28,7 +28,6 @@ public class RemoveNthNodeFromEndOfList {
         listNode.next.next.next = new ListNode(4);
         listNode.next.next.next.next = new ListNode(5);
         listNode.printListNode(listNode);
-        System.out.println();
 
         int n = 3;
         System.out.println("n = " + n);
