@@ -42,4 +42,5 @@
     RomanToInteger 罗马数字转整数
     LongestCommonPrefix 最长前缀
     LetterCombinationsOfAPhoneNumber 电话9宫格字母 http://blog.csdn.net/china_wanglong/article/details/38495355
-    RemoveNthNodeFromEndOfList 删除倒数第K个元素
+    RemoveNthNodeFromEndOfList 删除倒数第K个元素(#LinkedList - #List - FindElem 找倒数第K个元素)
+    ValidParentheses 括号匹配
