@@ -56,6 +56,29 @@ class ListNode {
         this.val = val;
     }
 
+    public void addListNode(int d) {
+        ListNode newNode = new ListNode(d);
+        if (next == null) {
+            next = newNode;
+            return;
+        }
+        ListNode temp = next;
+        while (temp.next != null) {
+            temp = temp.next;
+        }
+        temp.next = newNode;
+    }
+
+    public void printListNode() {
+        System.out.print(val + " ");
+        ListNode temp = next;
+        while (temp != null) {
+            System.out.print(temp.val + " ");
+            temp = temp.next;
+        }
+        System.out.println();
+    }
+
     public void printListNode(ListNode listNode) {
         ListNode temp = listNode;
         while (temp != null) {
