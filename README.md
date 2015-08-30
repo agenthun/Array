@@ -44,4 +44,5 @@
     LetterCombinationsOfAPhoneNumber 电话9宫格字母 http://blog.csdn.net/china_wanglong/article/details/38495355
     RemoveNthNodeFromEndOfList 删除倒数第K个元素(#LinkedList - #List - FindElem 找倒数第K个元素)
     ValidParentheses 括号匹配
+    GenerateParentheses 产生括号配对 (DFS深度优先搜索算法, http://www.programcreek.com/2014/01/leetcode-generate-parentheses-java/)
     MergeTwoSortedLists 合并两有序链表
