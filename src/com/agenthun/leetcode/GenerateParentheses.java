@@ -13,8 +13,9 @@ public class GenerateParentheses {
         return list;
     }
 
+    //left, right 表示剩余的左括号,右括号数,满足右括号大于左括号
     private void dfs(ArrayList<String> list, String s, int left, int right) {
-        if (left > right) return;
+        if (left > right) return; //满足右括号大于左括号
         if (left == 0 & right == 0) {
             list.add(s);
             return;
