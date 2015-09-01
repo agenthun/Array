@@ -47,3 +47,4 @@
     GenerateParentheses 产生括号配对 (DFS深度优先搜索算法, http://www.programcreek.com/2014/01/leetcode-generate-parentheses-java/)
     MergeTwoSortedLists 合并两有序链表
     RemoveDuplicatesFromSortedArray 有序数组去重,返回长度
+    RemoveElement 删除指定数，输出最后数组长度
