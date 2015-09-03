@@ -46,6 +46,7 @@
     ValidParentheses 括号匹配
     GenerateParentheses 产生括号配对 (DFS深度优先搜索算法, http://www.programcreek.com/2014/01/leetcode-generate-parentheses-java/)
     MergeTwoSortedLists 合并两有序链表
+    MergeKSortedLists 将K个有序链表合并成一个有序链表 (http://www.programcreek.com/2013/02/leetcode-merge-k-sorted-lists-java/)
     RemoveDuplicatesFromSortedArray 有序数组去重,返回长度
     RemoveElement 删除指定数，输出最后数组长度
     ImplementStrStr 字符匹配, 找出指定字符串在某字符串第一次出现的首下标 (KMP字符匹配算法, http://www.programcreek.com/2012/12/leetcode-implement-strstr-java/)
