@@ -52,3 +52,4 @@
     ImplementStrStr 字符匹配, 找出指定字符串在某字符串第一次出现的首下标 (KMP字符匹配算法, http://www.programcreek.com/2012/12/leetcode-implement-strstr-java/)
     SwapNodesInPairs 链表元素两两交换
     DivideTwoIntegers 不用乘除余做除法 (http://www.programcreek.com/2014/05/leetcode-divide-two-integers-java/)
+    NextPermutation 找出当前排列的下一个排列(http://www.programcreek.com/2014/06/leetcode-next-permutation-java/)
