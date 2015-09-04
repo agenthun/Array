@@ -6,8 +6,7 @@ package com.agenthun.leetcode;
 public class DivideTwoIntegers {
     public int divide(int dividend, int divisor) {
         if (divisor == 0) return Integer.MAX_VALUE;
-        if (divisor == -1 && dividend == Integer.MIN_VALUE)
-            return Integer.MAX_VALUE;
+        if (divisor == -1 && dividend == Integer.MIN_VALUE) return Integer.MAX_VALUE;
 
         long pDividend = Math.abs((long) dividend);
         long pDivisor = Math.abs((long) divisor);
