@@ -54,3 +54,4 @@
     DivideTwoIntegers 不用乘除余做除法 (http://www.programcreek.com/2014/05/leetcode-divide-two-integers-java/)
     NextPermutation 找出当前排列的下一个排列(http://www.programcreek.com/2014/06/leetcode-next-permutation-java/)
     ReverseNodesInkGroup 倒转链表前K个元素
+    ValidSudoku 判断有效数独 (http://blog.csdn.net/doc_sgl/article/details/13002461)
