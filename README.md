@@ -57,3 +57,4 @@
     ValidSudoku 判断有效数独 (http://blog.csdn.net/doc_sgl/article/details/13002461)
     SubstringWithConcatenationOfAllWords 列出只包含一次且全部出现单词的子串 (http://www.programcreek.com/2014/06/leetcode-substring-with-concatenation-of-all-words-java/)
     SearchForARange 找出taget值的区间(log n)
+    SearchInsertPosition 找出target值的或插入位置
