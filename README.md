@@ -60,3 +60,4 @@
     SearchForARange 找出taget值的区间(log n)
     SearchInsertPosition 找出target值的或插入位置
     SearchInRotatedSortedArray 在旋转数组中找到target值的位置
+    CountAndSay 按一规律读数 (http://www.programcreek.com/2014/03/leetcode-count-and-say-java/)
