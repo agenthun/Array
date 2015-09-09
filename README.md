@@ -45,6 +45,7 @@
     RemoveNthNodeFromEndOfList 删除倒数第K个元素(#LinkedList - #List - FindElem 找倒数第K个元素)
     ValidParentheses 括号匹配
     GenerateParentheses 产生括号配对 (DFS深度优先搜索算法, http://www.programcreek.com/2014/01/leetcode-generate-parentheses-java/)
+    LongestValidParentheses 最长的有效括号
     MergeTwoSortedLists 合并两有序链表
     MergeKSortedLists 将K个有序链表合并成一个有序链表 (http://www.programcreek.com/2013/02/leetcode-merge-k-sorted-lists-java/)
     RemoveDuplicatesFromSortedArray 有序数组去重,返回长度
