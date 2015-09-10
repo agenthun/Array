@@ -29,7 +29,7 @@ public class CountAndSay {
     }
 
     public static void main(String[] args) {
-        int n = 11;
+        int n = 3;
         System.out.println("n = " + n);
         System.out.println("countAndSay(n) = " + new CountAndSay().countAndSay(n));
     }
