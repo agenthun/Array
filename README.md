@@ -61,4 +61,5 @@
     SearchInsertPosition 找出target值的或插入位置
     SearchInRotatedSortedArray 在旋转数组中找到target值的位置
     CountAndSay 按一规律读数 (http://www.programcreek.com/2014/03/leetcode-count-and-say-java/)
-    CombinationSum 求数组中若干个数和为target
+    CombinationSum 求无重复数组中若干个数和为target
+    CombinationSumII 求数组中若干个数和为target
