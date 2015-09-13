@@ -64,3 +64,4 @@
     CombinationSum 求无重复数组中若干个数和为target
     CombinationSumII 求数组中若干个数和为target
     MultiplyStrings 字符串乘法 (http://www.programcreek.com/2014/05/leetcode-multiply-strings-java/)
+    Permutations 全排列
