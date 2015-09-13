@@ -63,3 +63,4 @@
     CountAndSay 按一规律读数 (http://www.programcreek.com/2014/03/leetcode-count-and-say-java/)
     CombinationSum 求无重复数组中若干个数和为target
     CombinationSumII 求数组中若干个数和为target
+    MultiplyStrings 字符串乘法 (http://www.programcreek.com/2014/05/leetcode-multiply-strings-java/)
