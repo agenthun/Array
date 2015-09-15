@@ -67,3 +67,5 @@
     Permutations 全排列
     PermutationsII 含重复全排列
     RotateImage 顺时针旋转90度图片
+    PowXN 求次方
+    GroupAnagrams 单词归类 (not complete)
