@@ -70,5 +70,6 @@
     PowXN 求次方
     MaximumSubarray 最大子元素和
     SpiralMatrix 旋转矩阵输出
+    LengthOfLastWord 输出最后一个单词的长度
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
