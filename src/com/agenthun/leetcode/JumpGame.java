@@ -12,7 +12,7 @@ public class JumpGame {
             if (nums[i] + i > max) {
                 max = nums[i] + i;
             }
-            if (max > nums.length - 1) return true;
+            if (max >= nums.length - 1) return true;
         }
         return false;
     }
