@@ -23,6 +23,8 @@
     FindReverseCount 找出反序对个数
     FindMinThreeDistance 找出最小三元组距离
     BinarySearch 二分查找
+# 进军硅谷
+    MinDelete 最长递增序列 (not right)
 # LeetCode
     Apples 分苹果(京东笔试)
     TwoSum 在无序数组中找出两数相加为特定数,返回下标
