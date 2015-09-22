@@ -75,5 +75,7 @@
     PlusOne 数组形式数加一
     AddBinary 二进制数加法
     ClimbingStairs 爬楼梯排列 (动态规划)
+    CombinationSumII 爬楼梯排列
+    JumpGame 跳棋游戏
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
