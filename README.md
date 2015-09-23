@@ -74,6 +74,7 @@
     PowXN 求次方
     MaximumSubarray 最大子元素和
     SpiralMatrix 旋转矩阵输出
+    SpiralMatrixII 旋转矩阵产生
     LengthOfLastWord 输出最后一个单词的长度
     PlusOne 数组形式数加一
     AddBinary 二进制数加法
