@@ -27,6 +27,7 @@
     MinDelete 最长递增序列 (not right)
 # LeetCode
     Apples 分苹果(京东笔试)
+    AverageAge 平均年龄(美团笔试)
     TwoSum 在无序数组中找出两数相加为特定数,返回下标
     ThreeSum 在无序数组中找出3数相加为0的组合,返回组合 /# List - FindSum
     ThreeSumClosest 在无序数组中找出3数相加为最接近数target的组合,返回和 /# List - FindSum
