@@ -72,6 +72,7 @@
     PermutationsII 含重复全排列
     RotateImage 顺时针旋转90度图片
     PowXN 求次方
+    Sqrtx 求开方
     MaximumSubarray 最大子元素和
     SpiralMatrix 旋转矩阵输出
     SpiralMatrixII 旋转矩阵产生
