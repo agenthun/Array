@@ -73,6 +73,7 @@
     MultiplyStrings 字符串乘法 (http://www.programcreek.com/2014/05/leetcode-multiply-strings-java/)
     Permutations 全排列
     PermutationsII 含重复全排列
+    PermutationSequence 输出第k个排列数
     RotateImage 顺时针旋转90度图片
     PowXN 求次方
     Sqrtx 求开方
