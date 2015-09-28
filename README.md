@@ -63,6 +63,7 @@
     NextPermutation 找出当前排列的下一个排列(http://www.programcreek.com/2014/06/leetcode-next-permutation-java/)
     ReverseNodesInkGroup 倒转链表前K个元素
     ValidSudoku 判断有效数独 (http://blog.csdn.net/doc_sgl/article/details/13002461)
+    SudokuSolver 求解数独
     SubstringWithConcatenationOfAllWords 列出只包含一次且全部出现单词的子串 (http://www.programcreek.com/2014/06/leetcode-substring-with-concatenation-of-all-words-java/)
     SearchForARange 找出taget值的区间(log n)
     SearchInsertPosition 找出target值的或插入位置
