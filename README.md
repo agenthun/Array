@@ -28,6 +28,7 @@
     MinProduct 最小数组乘积
     MaxHistogramArea 最大四边形
     Fibonacci 斐波那契数
+    MaxProfitII 股票买卖II
 # LeetCode
     Apples 分苹果(京东笔试)
     AverageAge 平均年龄(美团笔试)
