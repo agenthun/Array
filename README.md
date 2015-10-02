@@ -31,6 +31,7 @@
     MaxProfit 股票买卖
     MaxProfitII 股票买卖II
     MinPathSum 方格求最小路径和
+    MinTrianglePathSum 三角形求最小路径和
 # LeetCode
     Apples 分苹果(京东笔试)
     AverageAge 平均年龄(美团笔试)
