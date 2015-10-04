@@ -34,6 +34,7 @@
     MinTrianglePathSum 三角形求最小路径和 (#LeetCode - UniquePaths)
     NumDecodings 密码解密个数
     NumDistinct 子串个数
+    EditDistance 编辑距离,从字符串a转到字符串b
 # LeetCode
     Apples 分苹果(京东笔试)
     AverageAge 平均年龄(美团笔试)
