@@ -38,6 +38,7 @@
     IsInterleave 交替字符串,判断c是否由a,b组成
     MinPalinCut 回文分割
     LCS 最大公共子串
+    IsScramble 字符串洗牌
 # LeetCode
     Apples 分苹果(京东笔试)
     AverageAge 平均年龄(美团笔试)
