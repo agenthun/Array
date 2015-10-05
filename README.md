@@ -37,6 +37,7 @@
     EditDistance 编辑距离,从字符串a转到字符串b
     IsInterleave 交替字符串,判断c是否由a,b组成
     MinPalinCut 回文分割
+    LCS 最大公共子串
 # LeetCode
     Apples 分苹果(京东笔试)
     AverageAge 平均年龄(美团笔试)
