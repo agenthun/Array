@@ -39,6 +39,8 @@
     MinPalinCut 回文分割
     LCS 最大公共子串
     IsScramble 字符串洗牌
+    MergeTwoSortedArrays 合并两有序数组
+    ComputePerm 数组签名 (not complete)
 # LeetCode
     Apples 分苹果(京东笔试)
     AverageAge 平均年龄(美团笔试)
