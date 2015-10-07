@@ -39,7 +39,7 @@ public class ComputePerm {
 
     public static void main(String[] args) {
         String s = "DDIIDI";
-        System.out.println("s=" + s);
+        System.out.println("s = " + s);
 //      (new ComputePerm()).computePerm(s, 7,2);
     }
 }
