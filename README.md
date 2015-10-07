@@ -17,7 +17,7 @@
     FindMinAbs 求绝对值最小数
     FindMinDistance 求两元素最小距离
     FindFirstIndex 找第一次出现位置下标
-    CombineAWithB 合并两有序段成整体有序数组
+    CombineAWithB 插入数成整体有序数组
     FindSame 找出两有序数组交集
     IsContinuous 判断数组中数值是否连续相邻
     FindReverseCount 找出反序对个数
@@ -41,6 +41,7 @@
     IsScramble 字符串洗牌
     MergeTwoSortedArrays 合并两有序数组
     ComputePerm 数组签名 (not complete)
+    SortColors 三色排序
 # LeetCode
     Apples 分苹果(京东笔试)
     AverageAge 平均年龄(美团笔试)
