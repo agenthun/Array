@@ -42,6 +42,7 @@
     MergeTwoSortedArrays 合并两有序数组
     ComputePerm 数组签名 (not complete)
     SortColors 三色排序
+    Subsets 子集合
 # LeetCode
     Apples 分苹果(京东笔试)
     AverageAge 平均年龄(美团笔试)
