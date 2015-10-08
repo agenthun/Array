@@ -43,6 +43,7 @@
     ComputePerm 数组签名 (not complete)
     SortColors 三色排序
     Subsets 子集合
+    Randx 产生随机数
 # LeetCode
     Apples 分苹果(京东笔试)
     AverageAge 平均年龄(美团笔试)
