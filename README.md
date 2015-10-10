@@ -109,5 +109,6 @@
     JumpGameII 跳棋游戏,最短路径
     UniquePaths 方格求路径数
     UniquePathsII 部分空方格求路径数
+    SimplifyPath 绝对路径简化
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
