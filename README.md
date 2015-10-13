@@ -46,6 +46,7 @@
     Randx 产生随机数
     IsPowerOf2 判断是否是2的幂
     IsPowerOf4 判断是否是4的幂
+    AddX 不用加减乘除求两数之和
 # LeetCode
     Apples 分苹果(京东笔试)
     AverageAge 平均年龄(美团笔试)
