@@ -24,7 +24,7 @@
     FindMinThreeDistance 找出最小三元组距离
     BinarySearch 二分查找
 # 进军硅谷
-    MinDelete 最长递增序列 (not right)
+    MinDelete 最长递增序列 (not right) (http://my.oschina.net/hengjie/blog/124257)
     MinProduct 最小数组乘积
     MaxHistogramArea 最大四边形
     Fibonacci 斐波那契数
