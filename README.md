@@ -50,7 +50,7 @@
     IsPowerOf4 判断是否是4的幂
     AddX 不用加减乘除求两数之和
     BitSet 实现BitSet类
-
+    GetProduct 数组元素乘积
 # LeetCode
     Apples 分苹果(京东笔试)
     AverageAge 平均年龄(美团笔试)
