@@ -51,6 +51,7 @@
     AddX 不用加减乘除求两数之和
     BitSet 实现BitSet类
     GetProduct 数组元素乘积
+    PascalTriangle 帕斯卡三角形
 # LeetCode
     Apples 分苹果(京东笔试)
     AverageAge 平均年龄(美团笔试)
