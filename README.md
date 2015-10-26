@@ -57,6 +57,7 @@
     ComplexIterator 复杂的迭代器
     BlockingQueue 多线程BlockingQueue
     MaxSlidingWindow 局部最大值
+    InfiniteIntegerStreaming 无限数据流最大值
 # LeetCode
     Apples 分苹果(京东笔试)
     AverageAge 平均年龄(美团笔试)
