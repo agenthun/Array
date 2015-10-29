@@ -60,6 +60,7 @@
     InfiniteIntegerStreaming 无限数据流最大值
     GenRPNotation 产生逆波兰式
     CalculateRPNotation 逆波兰式计算
+    MinStack 设计Min栈
 # LeetCode
     Apples 分苹果(京东笔试)
     AverageAge 平均年龄(美团笔试)
