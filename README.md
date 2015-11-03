@@ -133,6 +133,7 @@
     SimplifyPath 绝对路径简化
     SetMatrixZeroes 置零矩阵
     WordSearch 单词搜索 (DFS)
+    GrayCode 格雷码
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
 # NowCoder
