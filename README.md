@@ -105,7 +105,7 @@
     ValidSudoku 判断有效数独 (http://blog.csdn.net/doc_sgl/article/details/13002461)
     SudokuSolver 求解数独
     SubstringWithConcatenationOfAllWords 列出只包含一次且全部出现单词的子串 (http://www.programcreek.com/2014/06/leetcode-substring-with-concatenation-of-all-words-java/)
-    SearchForARange 找出taget值的区间(log n)
+    SearchForARange 找出taget值的区间(log n)q
     SearchInsertPosition 找出target值的或插入位置
     SearchInRotatedSortedArray 在旋转数组中找到target值的位置
     CountAndSay 按一规律读数 (http://www.programcreek.com/2014/03/leetcode-count-and-say-java/)
@@ -134,6 +134,7 @@
     SetMatrixZeroes 置零矩阵
     WordSearch 单词搜索 (DFS)
     GrayCode 格雷码
+    Bucketfill 填充图像(DFS)
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
 # NowCoder
