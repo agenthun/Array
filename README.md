@@ -62,6 +62,8 @@
     CalculateRPNotation 逆波兰式计算
     MinStack 设计Min栈
     FindLongestConsequence 最长连续序列
+    Bucketfill 填充图像(DFS)
+    CountZeroArea 封闭区间个数
     InOrderIteratively 中序遍历 (not right)
 # LeetCode
     Apples 分苹果(京东笔试)
@@ -135,7 +137,6 @@
     SetMatrixZeroes 置零矩阵
     WordSearch 单词搜索 (DFS)
     GrayCode 格雷码
-    Bucketfill 填充图像(DFS)
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
 # NowCoder
