@@ -145,6 +145,7 @@
     SetMatrixZeroes 置零矩阵
     WordSearch 单词搜索 (DFS)
     GrayCode 格雷码
+    RestoreIPAddresses 恢复IP地址 (DFS)
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
 # NowCoder
