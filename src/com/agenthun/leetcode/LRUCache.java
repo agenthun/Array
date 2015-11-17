@@ -1,4 +1,4 @@
-package com.agenthun.movetosiliconvalley;
+package com.agenthun.leetcode;
 
 import java.util.HashMap;
 

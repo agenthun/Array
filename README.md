@@ -71,7 +71,6 @@
     LengthOfLongestSubstring 最长不同字符的子串
     MinWindow 最小字符窗口
     FindSubString 单词拼接
-    LRUCache LRU缓存
     InOrderIteratively 中序遍历 (not right)
 # LeetCode
     Apples 分苹果(京东笔试)
@@ -147,6 +146,7 @@
     WordSearch 单词搜索 (DFS)
     GrayCode 格雷码
     RestoreIPAddresses 恢复IP地址 (DFS)
+    LRUCache LRU缓存
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
 # NowCoder
