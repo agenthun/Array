@@ -77,6 +77,7 @@
     LCAIII 最小公共祖先III
     LCAIV 最小公共祖先IV
     HasPathSum 二叉树路径和,返回是否存在
+    HasPathSumII 二叉树路径和,返回路径 (may not right)
     IsBalancedTreeNode 平衡二叉树 (may not right)
     IsSymmetricTreeNode 树的镜像
     InOrderIteratively 中序遍历 (not right)
