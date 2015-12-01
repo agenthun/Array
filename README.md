@@ -80,6 +80,7 @@
     HasPathSumII 二叉树路径和,返回路径 (may not right)
     IsBalancedTreeNode 平衡二叉树 (may not right)
     IsSymmetricTreeNode 树的镜像
+    InorderSuccTree 中序下一个节点
     InOrderIteratively 中序遍历 (not right)
 # LeetCode
     Apples 分苹果(京东笔试)
