@@ -83,6 +83,7 @@
     InorderSuccTree 中序下一个节点
     FindClosestBST 二叉搜索树近值
     BSTIterator 二叉搜索树迭代器
+    ConnectTree 充实横向指针
     InOrderIteratively 中序遍历 (not right)
 # LeetCode
     Apples 分苹果(京东笔试)
