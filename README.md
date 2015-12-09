@@ -85,6 +85,7 @@
     BSTIterator 二叉搜索树迭代器
     ConnectTree 充实横向指针
     FindKNNTree 二叉搜索树KNN
+    RecoverTree 恢复二叉搜索树
     InOrderIteratively 中序遍历 (not right)
 # LeetCode
     Apples 分苹果(京东笔试)
