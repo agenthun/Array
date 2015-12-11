@@ -87,6 +87,7 @@
     FindKNNTree 二叉搜索树KNN
     RecoverTree 恢复二叉搜索树
     ZizaglevelOrder 按层遍历二叉树
+    MaxPathSumTree 二叉树最大路径和
     InOrderIteratively 中序遍历 (not right)
 # LeetCode
     Apples 分苹果(京东笔试)
