@@ -167,6 +167,7 @@
     BinaryTreePaths 打印二叉树路径 (http://blog.csdn.net/sbitswc/article/details/47830085)
     SameTree 判断是否是相同的树
     SingleNumber 找出只出现一次的数
+    MajorityElement 找出出现大于n/2的数字
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
 # NowCoder
