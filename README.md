@@ -169,7 +169,7 @@
     SameTree 判断是否是相同的树
     SingleNumber 找出只出现一次的数
     MajorityElement 找出出现大于n/2的数字
-    MoveZeroes 移动数组中的0
+    MoveZeroes 移动数组中的0 (http://segmentfault.com/a/1190000003768716)
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
 # NowCoder
