@@ -52,6 +52,7 @@
     BitSet 实现BitSet类
     GetProduct 数组元素乘积
     PascalTriangle 帕斯卡三角形
+    PascalTriangleII 帕斯卡三角形II,返回第k行列表
     SearchMatrix 矩阵搜索
     Peekable 实现迭代器
     ComplexIterator 复杂的迭代器
