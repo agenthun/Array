@@ -168,7 +168,8 @@
     LRUCache LRU缓存
     BinaryTreePaths 打印二叉树路径 (http://blog.csdn.net/sbitswc/article/details/47830085)
     SameTree 判断是否是相同的树
-    SingleNumber 找出只出现一次的数
+    SingleNumber 找出只出现一次的数(其它出现2次)
+    SingleNumberII 找出只出现一次的数(其它出现3次)
     MajorityElement 找出出现大于n/2的数字
     MoveZeroes 移动数组中的0 (http://segmentfault.com/a/1190000003768716)
     UglyNumber 是否是丑数
