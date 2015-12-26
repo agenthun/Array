@@ -173,6 +173,7 @@
     MajorityElement 找出出现大于n/2的数字
     MoveZeroes 移动数组中的0 (http://segmentfault.com/a/1190000003768716)
     UglyNumber 是否是丑数
+    UglyNumberII 输出第n个丑数
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
 # NowCoder
