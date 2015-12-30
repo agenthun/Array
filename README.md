@@ -176,6 +176,8 @@
     UglyNumberII 输出第n个丑数
     ProductofArrayExceptSelf 利用乘积产生数
     ReverseBits 旋转比特位
+    NumberOf1Bits 1的个数
+    MissingNumber 找出消失的数
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
 # NowCoder
