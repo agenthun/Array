@@ -179,6 +179,7 @@
     NumberOf1Bits 1的个数
     MissingNumber 找出消失的数
     WordBreak 判断单词能否拆分
+    BasicCalculator 实现加减识别括号计算器
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
 # NowCoder
