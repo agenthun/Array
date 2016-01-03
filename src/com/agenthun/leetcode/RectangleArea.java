@@ -19,7 +19,7 @@ public class RectangleArea {
         int top = Math.min(H, D);
         int bottom = Math.max(F, B);
 
-        return (C - A) * (D - B) + (G - E) * (H - F) - (right - left) * (top = bottom);
+        return (C - A) * (D - B) + (G - E) * (H - F) - (right - left) * (top - bottom);
     }
 
     public static void main(String[] args) throws IOException {
