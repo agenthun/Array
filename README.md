@@ -184,6 +184,7 @@
     AddDigits 按位加法 (http://my.oschina.net/Tsybius2014/blog/497645)
     RectangleArea 两矩形总面积
     MaximalRectangle 包含最多1的矩形
+    CompareVersionNumbers 比较版本号
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
 # NowCoder
