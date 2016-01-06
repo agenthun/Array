@@ -185,6 +185,7 @@
     RectangleArea 两矩形总面积
     MaximalRectangle 包含最多1的矩形
     CompareVersionNumbers 比较版本号
+    DistinctSubsequences 区分两字符串,返回不同的位置
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
 # NowCoder
