@@ -187,6 +187,7 @@
     CompareVersionNumbers 比较版本号
     DistinctSubsequences 区分两字符串,返回不同的位置
     ValidAnagram 判断是否是变位词
+    BitwiseANDofNumbersRange 按位与
     NQueens N皇后 (http://blog.csdn.net/evan123mg/article/details/46888993) (not complete)
     GroupAnagrams 单词归类 (not complete)
 # NowCoder
