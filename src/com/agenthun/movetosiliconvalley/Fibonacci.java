@@ -7,6 +7,7 @@ import java.util.HashMap;
  */
 public class Fibonacci {
     int fib(int n) {
+        if (n == 0) return 0;
         if (n <= 2) return 1;
         int a = 1, b = 1, i = 3, res = 0;
         while (i <= n) {

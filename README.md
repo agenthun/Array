@@ -193,3 +193,4 @@
 # NowCoder
     RobotMovingCount 机器人移动范围(DFS)
     ReplaceSpace 替换空格为%20
+    JumpFloor 跳台阶(类似 斐波那契数列 f(4)=5)
