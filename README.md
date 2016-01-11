@@ -146,7 +146,7 @@
     PermutationsII 含重复全排列
     PermutationSequence 输出第k个排列数
     RotateImage 顺时针旋转90度图片
-    PowXN 求次方
+    PowXN 求
     Sqrtx 求开方
     MaximumSubarray 最大子元素和
     SpiralMatrix 旋转矩阵输出
@@ -193,4 +193,5 @@
 # NowCoder
     RobotMovingCount 机器人移动范围(DFS)
     ReplaceSpace 替换空格为%20
-    JumpFloor 跳台阶(类似 斐波那契数列 f(4)=5)
+    JumpFloor 跳台阶(可跳1,2级, 类似 斐波那契数列 f(4)=5, f(n)=f(n-1)+f(n-2))
+    JumpFloorII 变态跳台阶(可跳1,2,..n级, f(n)=∑f(i),i=1,2..n-1)
