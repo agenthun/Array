@@ -196,3 +196,4 @@
     JumpFloor 跳台阶(可跳1,2级, 类似 斐波那契数列 f(4)=5, f(n)=f(n-1)+f(n-2))
     JumpFloorII 变态跳台阶(可跳1,2,..n级, 类似 2的等比数列 f(4)=2^(4-1)=8, f(n)=∑f(i),i=1,2..n-1)
     RectCover 矩形覆盖(类似 斐波那契数列 f(0)=1,f(4)=5, f(n)=f(n-1)+f(n-2))
+    MinNumberInRotateArray 旋转数组的最小数字(控子:最小数)
