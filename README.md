@@ -198,3 +198,4 @@
     RectCover 矩形覆盖(类似 斐波那契数列 f(0)=1,f(4)=5, f(n)=f(n-1)+f(n-2))
     MinNumberInRotateArray 旋转数组的最小数字(控子:最小数)
     GetLeastNumbers 最小的K个数
+    PrintMinNumber 把数组排成最小的数
