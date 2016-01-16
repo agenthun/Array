@@ -199,3 +199,4 @@
     MinNumberInRotateArray 旋转数组的最小数字(控子:最小数)
     GetLeastNumbers 最小的K个数
     PrintMinNumber 把数组排成最小的数
+    FindFirstCommonNode 两个链表的第一个公共结点 (LinkedList: IsIntersect)
