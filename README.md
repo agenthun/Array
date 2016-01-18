@@ -201,5 +201,5 @@
     PrintMinNumber 把数组排成最小的数
     FindFirstCommonNode 两个链表的第一个公共结点 (LinkedList: IsIntersect)
     FindKthToTail 链表中倒数第k个结点
-    ReverseList 反转链表 (not finish)
+    ReverseList 反转链表 (LinkedList: ReverseIteratively)
     Merge 合并两个排序的链表

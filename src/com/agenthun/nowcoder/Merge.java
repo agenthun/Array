@@ -1,7 +1,5 @@
 package com.agenthun.nowcoder;
 
-import java.util.List;
-
 /**
  * Created by agenthun on 16/1/18.
  */
