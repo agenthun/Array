@@ -203,3 +203,5 @@
     FindKthToTail 链表中倒数第k个结点
     ReverseList 反转链表 (LinkedList: ReverseIteratively)
     Merge 合并两个排序的链表
+    HasSubtree 树的子结构,输入两颗二叉树A，B，判断B是不是A的子结构(not finish)
+    TreeDepth 二叉树的深度
