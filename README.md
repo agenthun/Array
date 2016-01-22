@@ -206,4 +206,5 @@
     HasSubtree 树的子结构,输入两颗二叉树A，B，判断B是不是A的子结构(not finish)
     TreeDepth 二叉树的深度
     PrintListFromTailToHead 从尾到头打印链表
-    Permutation 字符串的排列
+    Permutation 字符串的排列(not finish)
+    Mirror 二叉树的镜像
