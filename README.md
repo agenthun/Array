@@ -209,3 +209,4 @@
     Permutation 字符串的排列(not finish)
     Mirror 二叉树的镜像
     PrintFromTopToBottom 从上往下打印二叉树
+    IsBalanced 判断是否是平衡二叉树
