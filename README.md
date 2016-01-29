@@ -214,3 +214,4 @@
     Find 二维数组中的查找
     FindNumsAppearOnce 数组中只出现一次的数字
     StackMin 包含min函数的栈
+    ReConstructBinaryTree 重建二叉树(已知前序遍历和中序遍历,求原二叉树)
