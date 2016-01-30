@@ -146,7 +146,7 @@
     PermutationsII 含重复全排列
     PermutationSequence 输出第k个排列数
     RotateImage 顺时针旋转90度图片
-    PowXN 求
+    PowXN 求次方
     Sqrtx 求开方
     MaximumSubarray 最大子元素和
     SpiralMatrix 旋转矩阵输出
@@ -203,10 +203,10 @@
     FindKthToTail 链表中倒数第k个结点
     ReverseList 反转链表 (LinkedList: ReverseIteratively)
     Merge 合并两个排序的链表
-    HasSubtree 树的子结构,输入两颗二叉树A，B，判断B是不是A的子结构(not finish)
+    HasSubtree 树的子结构,输入两颗二叉树A，B，判断B是不是A的子结构
     TreeDepth 二叉树的深度
     PrintListFromTailToHead 从尾到头打印链表
-    Permutation 字符串的排列(not finish)
+    Permutation 字符串的排列(含重复字符)
     Mirror 二叉树的镜像
     PrintFromTopToBottom 从上往下打印二叉树
     IsBalanced 判断是否是平衡二叉树
