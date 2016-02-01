@@ -116,7 +116,7 @@ public class ReOrderArray {
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
         }
-        System.out.println("result = ");
+        System.out.println("\nresult = ");
 
         reOrderArray(a);
         for (int i = 0; i < a.length; i++) {
