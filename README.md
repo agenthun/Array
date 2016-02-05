@@ -220,3 +220,4 @@
     IsPopOrder 栈的压入、弹出序列
     MoreThanHalfNum 数组中出现次数超过一半的数字
     FindPath 二叉树中和为某一值的路径(right!!!)
+    NumberOf1Between1AndN 整数中1出现的次数（从1到n整数中1出现的次数）
