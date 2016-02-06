@@ -97,7 +97,7 @@
     IsAppear 判断a是否在b中全部出现(百度笔试)
     AttackYou 黑默丁格炮台(网易笔试)
     ReadXLine 未知多行输入(笔试备用)
-    TwoSum 在无序数组中找出两数相加为特定数,返回下标
+    TwoSum 在无序数组中找出两数相加为特定数,返回下标,下标1开始
     ThreeSum 在无序数组中找出3数相加为0的组合,返回组合 /# List - FindSum
     ThreeSumClosest 在无序数组中找出3数相加为最接近数target的组合,返回和 /# List - FindSum
     FourSum 在无序数组中找出4数相加为target的组合,返回组合 /# List - FindSum
@@ -221,3 +221,4 @@
     MoreThanHalfNum 数组中出现次数超过一半的数字
     FindPath 二叉树中和为某一值的路径(right!!!)
     NumberOf1Between1AndN 整数中1出现的次数（从1到n整数中1出现的次数）
+    FindNumbersWithSum 和为S的两个数字
