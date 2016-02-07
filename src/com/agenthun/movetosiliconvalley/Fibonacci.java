@@ -6,6 +6,7 @@ import java.util.HashMap;
  * Created by agenthun on 15/10/1.
  */
 public class Fibonacci {
+    //O(N)
     int fib(int n) {
         if (n == 0) return 0;
         if (n <= 2) return 1;
@@ -26,6 +27,12 @@ public class Fibonacci {
         int res = fibII(n - 1, hashMap) + fibII(n - 2, hashMap);
         hashMap.put(n, res);
         return res;
+    }
+
+    int fibIII(int n) {
+        if (n <= 1) return 1;
+        else
+            return fibIII(n - 1) + fibIII(n - 2);
     }
 
     public static void main(String[] args) {
