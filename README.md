@@ -226,3 +226,4 @@
     ReverseSentence 翻转单词顺序列
     IsSymmetrical 对称的二叉树(#进军硅谷 - IsSymmetricTreeNode)
     LastRemaining 孩子们的游戏(圆圈中最后剩下的数 - Joseph环)(http://blog.csdn.net/dazhong159/article/details/7955726)
+    StrToInt 把字符串转换成整数(#leetcode - StringToInteger)
