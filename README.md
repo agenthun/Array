@@ -228,3 +228,4 @@
     LastRemaining 孩子们的游戏(圆圈中最后剩下的数 - Joseph环)(http://blog.csdn.net/dazhong159/article/details/7955726)
     StrToInt 把字符串转换成整数(#leetcode - StringToInteger)
     Duplicate 数组中重复的数字(#List - FindMostFrequentInArray)
+    Multiply 构建乘积数组(#进军硅谷 - GetProduct 数组元素乘积)
