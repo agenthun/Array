@@ -230,3 +230,4 @@
     StrToInt 把字符串转换成整数(#leetcode - StringToInteger)
     Duplicate 数组中重复的数字(#List - FindMostFrequentInArray)
     Multiply 构建乘积数组(#进军硅谷 - GetProduct 数组元素乘积)
+    EntryNodeOfLoop 链表中环的入口结点(#LinkedList - IsLoop)
