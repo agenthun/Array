@@ -232,3 +232,4 @@
     Multiply 构建乘积数组(#进军硅谷 - GetProduct 数组元素乘积)
     EntryNodeOfLoop 链表中环的入口结点(#LinkedList - IsLoop)
     IsContinuous 扑克牌顺子(判断是否有连续的5个数字)(区别于 #Array - IsContinuous)
+    GetUglyNumber 丑数(#LeetCode - UglyNumberII)
