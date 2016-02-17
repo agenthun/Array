@@ -7,7 +7,8 @@ public class RemoveDuplicatesfromSortedListII {
     ListNode deleteDuplicates(ListNode head) {
         if (head == null || head.next == null) return head;
 
-        ListNode p0 = head;
+        ListNode p0 = new ListNode(0);
+        p0.next = head;
 
         ListNode p1 = p0;
         while (p1.next != null && p1.next.next != null) {
@@ -21,7 +22,7 @@ public class RemoveDuplicatesfromSortedListII {
             }
         }
 
-        return p0;
+        return p0.next;
     }
 
     public static void main(String[] args) {
@@ -29,7 +30,7 @@ public class RemoveDuplicatesfromSortedListII {
         listNode.addListNode(2);
         listNode.addListNode(3);
         listNode.addListNode(3);
-        listNode.addListNode(4);
+        listNode.addListNode(3);
         listNode.addListNode(4);
         listNode.addListNode(5);
         listNode.printListNode();
