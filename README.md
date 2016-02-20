@@ -237,3 +237,5 @@
     DeleteDuplication 删除链表中重复的结点(#LeetCode - RemoveDuplicatesfromSortedListII)
     Clone 复杂链表的复制
     IsNumeric 表示数值的字符串
+    GetNumberOfK 数字在排序数组中出现的次数
+    Convert 二叉搜索树与双向链表
