@@ -236,3 +236,4 @@
     GetNext二叉树的 下一个结点(#进军硅谷 - InorderSuccTree 中序下一个节点)
     DeleteDuplication 删除链表中重复的结点(#LeetCode - RemoveDuplicatesfromSortedListII)
     Clone 复杂链表的复制
+    IsNumeric 表示数值的字符串
