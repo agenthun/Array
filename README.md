@@ -240,3 +240,4 @@
     GetNumberOfK 数字在排序数组中出现的次数
     Convert 二叉搜索树与双向链表
     FirstNotRepeatingChar 第一个只出现一次的字符位置
+    InversePairs 数组中的逆序对
