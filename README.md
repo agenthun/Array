@@ -239,3 +239,4 @@
     IsNumeric 表示数值的字符串
     GetNumberOfK 数字在排序数组中出现的次数
     Convert 二叉搜索树与双向链表
+    FirstNotRepeatingChar 第一个只出现一次的字符位置
