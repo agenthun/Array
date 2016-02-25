@@ -242,3 +242,4 @@
     FirstNotRepeatingChar 第一个只出现一次的字符位置
     InversePairs 数组中的逆序对
     FindContinuousSequence 和为S的连续正数序列
+    HasPath 矩阵中的路径(回溯法)
