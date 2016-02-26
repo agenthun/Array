@@ -243,3 +243,4 @@
     InversePairs 数组中的逆序对
     FindContinuousSequence 和为S的连续正数序列
     HasPath 矩阵中的路径(回溯法)
+    Add 不用加减乘除做加法(#进军硅谷 - AddX 不用加减乘除求两数之和)
