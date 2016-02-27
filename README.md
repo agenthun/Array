@@ -241,6 +241,7 @@
     GetNumberOfK 数字在排序数组中出现的次数
     Convert 二叉搜索树与双向链表
     FirstNotRepeatingChar 第一个只出现一次的字符位置
+    FirstAppearingOnce 字符流中第一个不重复的字符(#NowCode - FirstNotRepeatingChar)
     InversePairs 数组中的逆序对
     FindContinuousSequence 和为S的连续正数序列
     HasPath 矩阵中的路径(回溯法)
