@@ -251,4 +251,5 @@
     GetMedian 数据流中的中位数
     KthNode 二叉搜索树的第k个结点
     Deserialize 序列化二叉树
+    MaxInWindows 滑动窗口的最大值,局域内最大值
 
