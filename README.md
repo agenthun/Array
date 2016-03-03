@@ -249,4 +249,6 @@
     Match 正则表达式匹配(#LeetCode - RegularExpressionMatching 模糊匹配(.*))
     Sum 求1+2+3+...+n
     GetMedian 数据流中的中位数
+    KthNode 二叉搜索树的第k个结点
+    Deserialize 序列化二叉树
 
