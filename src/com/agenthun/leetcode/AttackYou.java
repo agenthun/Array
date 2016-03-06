@@ -30,6 +30,6 @@ public class AttackYou {
         if (r >= d1) attack++;
         if (r >= d2) attack++;
         if (r >= d3) attack++;
-        System.out.println(attack + "X");
+        System.out.println(String.valueOf(attack) + "X");
     }
 }
