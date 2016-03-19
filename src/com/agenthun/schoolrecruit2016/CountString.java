@@ -9,9 +9,9 @@ package com.agenthun.schoolrecruit2016;
  * 输出例子: 56
  */
 public class CountString {
-    private int countString(String s1, String s2, int len1, int len2) {
+/*    private int countString(String s1, String s2, int len1, int len2) {
 
-    }
+    }*/
 
     public static void main(String[] args) {
 
