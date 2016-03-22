@@ -264,3 +264,4 @@
     FightPlayGame 小易的升级之路(网易)(注意输入写法!!)
     MatrixMultiply 矩阵元素相乘(搜狗)
     CutDownGrid 裁减网格纸(百度)
+    Kth 第k个最小数(网易),利用快排找出第K个最小数, k从0开始
