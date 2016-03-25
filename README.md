@@ -268,3 +268,4 @@
     DeleteNumber 删数(华为)(类似 #NowCoder - LastRemaining 孩子们的游戏)
     Flip 棋子翻转(美团)
     Gift 微信红包(腾讯)(类似 #LeetCode - MajorityElement 找出出现大于n/2的数字)
+    BigMultiply 对两个很大整数进行乘法计算(腾讯2017暑期实习笔试模拟)

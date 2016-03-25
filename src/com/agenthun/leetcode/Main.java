@@ -55,9 +55,9 @@ public class Main {
             s[i] = bufferedReader.readLine();
         }*/
 
-//        System.out.println("getPermutation(\"abcdefghijkl\") = " + new Main().getPermutation("abcdefghijkl"));
+//        System.out.println("getPermutation(\"abcdefghijkl\") = " + new BigMultiply().getPermutation("abcdefghijkl"));
         System.out.println(new Main().getPermutation("hgebkflacdji") + "");
-//        System.out.println("getPermutation(\"abcdefghijkl\") = " + new Main().getPermutation("gfkedhjblcia"));
+//        System.out.println("getPermutation(\"abcdefghijkl\") = " + new BigMultiply().getPermutation("gfkedhjblcia"));
 
     }
 }
