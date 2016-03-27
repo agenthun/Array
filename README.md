@@ -269,4 +269,6 @@
     Flip 棋子翻转(美团)
     Gift 微信红包(腾讯)(类似 #LeetCode - MajorityElement 找出出现大于n/2的数字)
     BigMultiply 对两个很大整数进行乘法计算(腾讯2017暑期实习笔试模拟)
-    Stock 股票交易日(美团)(进军硅谷 - MaxProfitII 股票买卖II)
+    Stock 股票交易日(美团)(#进军硅谷 - MaxProfitII 股票买卖II)
+    MaxInnerRec 直方图内最大矩形(美团)(#进军硅谷 - MaxHistogramArea 最大四边形)
+    Visit 拜访(美团)
