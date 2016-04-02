@@ -256,7 +256,7 @@
     StreetLamp 路灯(网易)
     CountWays 换零钱
     BinarySearch 二分查找,请返回第一次出现的位置
-    Bonus 年终奖(京东)
+    Bonus 年终奖(京东)(腾讯2017暑期实习笔试)
     GoUpstairs 上台阶(考虑溢出)(京东)
     CountBitDiff 懂二进制(小米)
     GrayCode 生成格雷码,递归(腾讯)
@@ -276,3 +276,4 @@
     OddBitDrop 奇数位丢弃(美团)
     Balls 小球的距离(京东)
     IdenticalTree 拓扑结构相同子树(#NowCoder - HasSubtree 树的子结构,输入两颗二叉树A，B，判断B是不是A的子结构)
+    ReverseSentence 倒置句子单词(腾讯2017暑期实习笔试 #NowCoder - ReverseSentence 翻转单词顺序列)
