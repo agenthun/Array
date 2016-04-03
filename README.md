@@ -277,3 +277,4 @@
     Balls 小球的距离(京东)
     IdenticalTree 拓扑结构相同子树(#NowCoder - HasSubtree 树的子结构,输入两颗二叉树A，B，判断B是不是A的子结构)
     ReverseSentence 倒置句子单词(腾讯2017暑期实习笔试 #NowCoder - ReverseSentence 翻转单词顺序列)
+    ShortSubsequence 最短排序,需要排序的最短序列
