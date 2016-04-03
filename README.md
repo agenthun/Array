@@ -198,7 +198,7 @@
     RectCover 矩形覆盖(类似 斐波那契数列 f(0)=1,f(4)=5, f(n)=f(n-1)+f(n-2))
     MinNumberInRotateArray 旋转数组的最小数字(控子:最小数)
     GetLeastNumbers 最小的K个数
-    PrintMinNumber 把数组排成最小的数
+    PrintMinNumber 把数组排成最小的数(把数组里所有数字拼接起来排成一个数，打印能拼接出的所有数字中最小的一个)
     FindFirstCommonNode 两个链表的第一个公共结点 (LinkedList: IsIntersect)
     FindKthToTail 链表中倒数第k个结点
     ReverseList 反转链表 (LinkedList: ReverseIteratively)

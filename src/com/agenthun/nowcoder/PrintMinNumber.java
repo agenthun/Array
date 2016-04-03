@@ -7,6 +7,8 @@ import java.util.Arrays;
 
 /**
  * Created by agenthun on 16/1/15.
+ * 输入一个正整数数组，把数组里所有数字拼接起来排成一个数，打印能拼接出的所有数字中最小的一个。
+ * 例如输入数组{3，32，321}，则打印出这三个数字能排成的最小数字为321323。
  */
 public class PrintMinNumber {
     public static String printMinNumber(int[] numbers) {
@@ -14,12 +16,30 @@ public class PrintMinNumber {
 
         int[] clone = numbers.clone();
         printMin(clone, 0, clone.length - 1);
+//        quickSort(clone, 0, clone.length - 1);
 
         StringBuffer buffer = new StringBuffer();
         for (int i = 0; i < clone.length; i++) {
             buffer.append(clone[i]);
         }
         return buffer.toString();
+    }
+
+    private static void quickSort(int[] array, int left, int right) {
+        if (left < right) {
+            int i = left;
+            int j = right;
+            int temp = array[i];
+            while (i < j) {
+                while (i < j && array[j] >= temp) j--;
+                if (i < j) array[i++] = array[j];
+                while (i < j && array[i] < temp) i++;
+                if (i < j) array[j--] = array[i];
+            }
+            array[i] = temp;
+            quickSort(array, left, i - 1);
+            quickSort(array, i + 1, left);
+        }
     }
 
     private static void printMin(int[] a, int start, int end) {
