@@ -23,6 +23,7 @@
     FindReverseCount 找出反序对个数
     FindMinThreeDistance 找出最小三元组距离
     BinarySearch 二分查找
+    GCDAndLCM 最大公约数,最小公倍数
 # 进军硅谷
     MinDelete 最长递增序列 (not right) (http://my.oschina.net/hengjie/blog/124257)
     MinProduct 最小数组乘积
@@ -234,7 +235,7 @@
     EntryNodeOfLoop 链表中环的入口结点(#LinkedList - IsLoop)
     IsContinuous 扑克牌顺子(判断是否有连续的5个数字)(区别于 #Array - IsContinuous)
     GetUglyNumber 丑数(#LeetCode - UglyNumberII)
-    GetNext二叉树的 下一个结点(#进军硅谷 - InorderSuccTree 中序下一个节点)
+    GetNext 二叉树的 下一个结点(#进军硅谷 - InorderSuccTree 中序下一个节点)
     DeleteDuplication 删除链表中重复的结点(#LeetCode - RemoveDuplicatesfromSortedListII)
     Clone 复杂链表的复制
     IsNumeric 表示数值的字符串
