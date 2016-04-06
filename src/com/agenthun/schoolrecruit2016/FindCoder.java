@@ -14,7 +14,7 @@ import java.util.*;
 public class FindCoder {
     public String[] findCoder(String[] A, int n) {
         // write code here
-        HashMap<String, Integer> map = new HashMap<>();
+        LinkedHashMap<String, Integer> map = new LinkedHashMap<>();
         for (int i = 0; i < A.length; i++) {
             char[] chs = A[i].toLowerCase().toCharArray();
             int count = 0;
@@ -59,10 +59,12 @@ public class FindCoder {
 
     public static void main(String[] args) {
         String[] A = {
+                "xbxcoderlafrcoderyuccoderjcoderefldcodersstujcoderelcoder",
                 "Coder CoderCoder",
                 "i am a coder",
                 "Coder Coder",
-                "Code"
+                "Code",
+                "dvfowcoderfencoderqekcoderbtmcoderehcoderriyjdcodermocoder"
         };
         int n = 3;
         for (int i = 0; i < A.length; i++) {
