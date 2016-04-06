@@ -281,3 +281,4 @@
     ReverseSentence 倒置句子单词(腾讯2017暑期实习笔试 #NowCoder - ReverseSentence 翻转单词顺序列)
     ShortSubsequence 最短排序,需要排序的最短序列
     TreeNodeType N个节点的二叉树有多少种形态(f(n)=f(n-1)+f(n-2)*f(1)+f(n-3)*f(2)+..+f(1)*f(n-2)+f(n-1))
+    FindCoder 寻找Coder(去哪儿)
