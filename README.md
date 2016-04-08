@@ -283,3 +283,5 @@
     TreeNodeType N个节点的二叉树有多少种形态(f(n)=f(n-1)+f(n-2)*f(1)+f(n-3)*f(2)+..+f(1)*f(n-2)+f(n-1))
     FindCoder 寻找Coder(去哪儿)
     FindFirstRepeat 首个重复字符(去哪儿)
+    Vote 选举游戏(京东2017暑期实习笔试)
+    BuyCandy 买糖果(京东2017暑期实习笔试)
