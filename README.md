@@ -286,3 +286,4 @@
     Vote 选举游戏(京东2017暑期实习笔试)(not complete)
     BuyCandy 买糖果(京东2017暑期实习笔试)(not complete)
     MoveCircle 搬圆桌(蘑菇街)
+    MaxDiff 最大间隔(蘑菇街)
