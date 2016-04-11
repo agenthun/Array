@@ -287,3 +287,4 @@
     BuyCandy 买糖果(京东2017暑期实习笔试)(not complete)
     MoveCircle 搬圆桌(蘑菇街)
     MaxDiff 最大间隔(蘑菇街)
+    FindKthNumInArrays 多数组K大数(#List - KMinInArrays 在两有序数组找第K个最小数)
