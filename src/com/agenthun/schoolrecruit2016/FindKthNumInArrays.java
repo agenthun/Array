@@ -44,6 +44,6 @@ public class FindKthNumInArrays {
         int[] a1 = {1, 2, 3};
         int[] a2 = {3, 4, 5, 6};
         int k = 4;
-        System.out.println("new FindKthNumInArrays().findKthNum(a1,a2,k) = " + new FindKthNumInArrays().findKthNum(a1, a2, k));
+        System.out.println("findKthNum(a1,a2,k) = " + new FindKthNumInArrays().findKthNum(a1, a2, k));
     }
 }
