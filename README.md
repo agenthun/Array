@@ -290,3 +290,4 @@
     FindKthNumInArrays 多数组K大数(#List - KMinInArrays 在两有序数组找第K个最小数)
     TimeChat 聊天(蘑菇街)
     TakeBuses 乘坐公交(去哪儿)
+    AscentSequence 最长递增子序列
