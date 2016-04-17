@@ -291,3 +291,4 @@
     TimeChat 聊天(蘑菇街)
     TakeBuses 乘坐公交(去哪儿)
     AscentSequence 最长递增子序列
+    Stones 取石子游戏(随身云)(http://www.cnblogs.com/celia01/archive/2011/11/15/2250171.html)(not finish)
