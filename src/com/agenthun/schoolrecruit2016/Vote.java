@@ -3,8 +3,7 @@ package com.agenthun.schoolrecruit2016;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Created by agenthun on 16/4/8.
@@ -33,6 +32,8 @@ public class Vote {
     private static int get(int[] person, int n) {
         int count = 0;
         Arrays.sort(person, 1, n);
+        List<Integer> list = new ArrayList<>();
+        list = new LinkedList<>();
 
         for (int i = n - 1; i > 0; i--) {
             while (i != 1 && (person[i] >= person[i - 1]) && (person[0] <= person[i])) {
