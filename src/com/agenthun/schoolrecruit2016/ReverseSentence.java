@@ -3,6 +3,8 @@ package com.agenthun.schoolrecruit2016;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Stack;
 
 /**
  * Created by agenthun on 16/4/2.
@@ -31,7 +33,7 @@ public class ReverseSentence {
 
     public String trans(String s, int n) {
         // write code here
-        if (s == null || s.length() == 0) return "";
+/*        if (s == null || s.length() == 0) return "";
         char[] chars = s.toCharArray();
 
         for (int i = 0; i < n; i++) {
@@ -40,25 +42,52 @@ public class ReverseSentence {
             else if (x < 'a') chars[i] = (char) (x + 'a' - 'A');
             else chars[i] = (char) (x + 'A' - 'a');
         }
-        String ss = new String(chars);
 
-        String[] words = ss.split(" ");
-
-        int left = 0, right = words.length - 1;
+        int left = 0, right = chars.length - 1;
         while (left < right) {
-            String temp = words[left];
-            words[left] = words[right];
-            words[right] = temp;
+            char temp = chars[left];
+            chars[left] = chars[right];
+            chars[right] = temp;
             left++;
             right--;
         }
 
-        String res = new String();
-        for (String x :
-                words) {
-            res += (x.equals("") ? " " : x) + " ";
+
+        return res;*/
+        Stack<Character> ss = new Stack<Character>();
+        ArrayList<Character> aa = new ArrayList<Character>();
+
+        for (int i = 0; i < n; i++) {
+            if (s.charAt(i) == ' ') {
+                while (!ss.empty()) {
+                    aa.add(ss.pop());
+                }
+                aa.add(s.charAt(i));
+            } else {
+                if ((s.charAt(i) >= 'a') && (s.charAt(i) <= 'z')) {
+                    ss.push((char) (s.charAt(i) - ' '));
+                }
+                if ((s.charAt(i) <= 'Z') && (s.charAt(i) >= 'A')) {
+                    ss.push((char) (s.charAt(i) + ' '));
+                }
+                if (i == n - 1) {
+                    while (!ss.empty()) {
+                        aa.add(ss.pop());
+                    }
+                }
+            }
         }
 
+        Stack<Character> rr = new Stack<Character>();
+        for (int i = 0; i < aa.size(); i++) {
+            rr.push(aa.get(i));
+        }
+
+        String res = "";
+        while (!rr.empty()) {
+            res += rr.pop();
+        }
+        //res = res + aa.size();
         return res;
     }
 
