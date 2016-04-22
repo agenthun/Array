@@ -25,15 +25,10 @@ import java.util.Stack;
  * " I H"
  */
 public class ReverseSentence {
-    public char toUpDown(char x) {
-        if (x == ' ') return x;
-        else if (x < 'a') return (char) (x + 'a' - 'A');
-        else return (char) (x + 'A' - 'a');
-    }
 
     public String trans(String s, int n) {
         // write code here
-/*        if (s == null || s.length() == 0) return "";
+        if (s == null || s.length() == 0) return "";
         char[] chars = s.toCharArray();
 
         for (int i = 0; i < n; i++) {
@@ -52,9 +47,26 @@ public class ReverseSentence {
             right--;
         }
 
+        Stack<Character> stack = new Stack<>();
+        int index = -1;
+        for (int i = 0; i < n; i++) {
+            if (chars[i] == ' ') {
+                while (!stack.empty()) {
+                    chars[index + 1] = stack.pop();
+                    index++;
+                }
+                index = i;
+            } else {
+                stack.push(chars[i]);
+            }
+        }
+        while (!stack.empty()) {
+            chars[index + 1] = stack.pop();
+            index++;
+        }
 
-        return res;*/
-        Stack<Character> ss = new Stack<Character>();
+        return new String(chars);
+/*        Stack<Character> ss = new Stack<Character>();
         ArrayList<Character> aa = new ArrayList<Character>();
 
         for (int i = 0; i < n; i++) {
@@ -88,7 +100,7 @@ public class ReverseSentence {
             res += rr.pop();
         }
         //res = res + aa.size();
-        return res;
+        return res;*/
     }
 
     private static String reverseSentence(String str) {
@@ -119,8 +131,8 @@ public class ReverseSentence {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         //while (true) {
 //        String s = bufferedReader.readLine();
-        int n = 4;
-        String s = "h i ";
+        int n = 10;
+        String s = "Now Co der";
         //System.out.println("ReverseSentence(s) = " + reverseSentence(s));
         System.out.println("=" + new ReverseSentence().trans(s, n));
 //        }
