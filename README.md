@@ -279,6 +279,7 @@
     Balls 小球的距离(京东)
     IdenticalTree 拓扑结构相同子树(#NowCoder - HasSubtree 树的子结构,输入两颗二叉树A，B，判断B是不是A的子结构)
     ReverseSentence 倒置句子单词(腾讯2017暑期实习笔试 #NowCoder - ReverseSentence 翻转单词顺序列)
+    ReverseSentence 字符串变形trans
     ShortSubsequence 最短排序,需要排序的最短序列
     TreeNodeType N个节点的二叉树有多少种形态(f(n)=f(n-1)+f(n-2)*f(1)+f(n-3)*f(2)+..+f(1)*f(n-2)+f(n-1))
     FindCoder 寻找Coder(去哪儿)
@@ -293,5 +294,5 @@
     AscentSequence 最长递增子序列
     Stones 取石子游戏(随身云)(http://www.cnblogs.com/celia01/archive/2011/11/15/2250171.html)(not finish)
     GetUpMedian 多数组中位数(#SchoolRecruit2016 - FindKthNumInArrays)
-    ReverseSentence 字符串变形trans
     Partition 分土地
+    LongestPath 最长的单色路径
