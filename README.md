@@ -296,3 +296,4 @@
     GetUpMedian 多数组中位数(#SchoolRecruit2016 - FindKthNumInArrays)
     Partition 分土地
     LongestPath 最长的单色路径
+    ChainFindK 串珠子
