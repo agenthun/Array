@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by agenthun on 16/4/27.
  */
-public class Main3 {
+public class FindKY {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         while (input.hasNext()) {

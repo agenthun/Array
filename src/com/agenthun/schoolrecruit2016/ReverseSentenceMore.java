@@ -3,13 +3,12 @@ package com.agenthun.schoolrecruit2016;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 import java.util.Stack;
 
 /**
  * Created by agenthun on 16/4/27.
  */
-public class Main {
+public class ReverseSentenceMore {
     public static void reverse(StringBuilder stringBuilder, int index, int len) {
         Stack<Character> stack = new Stack<>();
         for (int i = 0; i < len; i++) {

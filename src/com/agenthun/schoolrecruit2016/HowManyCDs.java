@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by agenthun on 16/4/27.
  */
-public class Main2 {
+public class HowManyCDs {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         while (input.hasNext()) {

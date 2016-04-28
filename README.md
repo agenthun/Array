@@ -297,3 +297,6 @@
     Partition 分土地
     LongestPath 最长的单色路径
     ChainFindK 串珠子
+    FindKY 找出第K个正整数y值,满足x+y=x|y
+    HowManyCDs 计算多少张CD
+    ReverseSentenceMore 多次翻转字符串
