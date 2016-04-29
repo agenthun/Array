@@ -1,7 +1,6 @@
 package com.agenthun.schoolrecruit2016;
 
 import java.util.Scanner;
-import java.util.Stack;
 
 /**
  * Created by agenthun on 16/4/27.
@@ -10,7 +9,15 @@ public class ReverseSentenceMore {
     public static String reverse(String s, int index, int end) {
         int left = index;
         int right = end;
-        while (left)
+        char[] cs = s.toCharArray();
+        while (left < end) {
+            char temp = cs[left];
+            cs[left] = cs[right];
+            cs[right] = temp;
+            left++;
+            right--;
+        }
+        return cs.toString();
     }
 
     public static void main(String[] args) {
@@ -49,4 +56,42 @@ public class ReverseSentenceMore {
             // 输出结果
             System.out.println(stringBuilder.toString());*/
     }
+
+//    public static void main(String[] args) {
+//        // TODO Auto -generated method stub
+//        Scanner scanner = new Scanner(System.in);
+//        String s = scanner.nextLine();
+//        int count = Integer.parseInt(scanner.nextLine());
+//        StringBuffer buffer = new StringBuffer();
+//        buffer.append(s);
+//
+//        for (int i = 0; i < count; i++) {
+//            String[] ss = scanner.nextLine().split(" ");
+//            int start = Integer.parseInt(ss[0]);
+//            int end = Integer.parseInt(ss[0]) +
+//                    Integer.parseInt(ss[1]) - 1;
+//            String sss = res(s, start, end);
+//            buffer.append(sss);
+//            s = buffer.toString();
+//        }
+//        System.out.println(buffer.toString());
+//    }
+//
+//    public static String res(String s, int start, int end) {
+//        int a = start;
+//        int b = end;
+//        char[] cha = s.toCharArray();
+//
+//        while (start < end) {
+//            char temp = cha[start];
+//            cha[start] = cha[end];
+//            cha[end] = temp;
+//            start++;
+//            end--;
+//        }
+//
+//        String ss = String.valueOf(cha);
+//        String sss = ss.substring(a, b + 1);
+//        return sss;
+//    }
 }
