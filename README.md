@@ -300,3 +300,4 @@
     FindKY 找出第K个正整数y值,满足x+y=x|y
     HowManyCDs 计算多少张CD
     ReverseSentenceMore 多次翻转字符串
+    MushroomMatrix 蘑菇阵(百度)
