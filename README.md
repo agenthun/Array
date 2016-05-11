@@ -302,3 +302,4 @@
     ReverseSentenceMore 多次翻转字符串
     MushroomMatrix 蘑菇阵(百度)
     SolveString 解密字符串(土豆)
+    PalindromeList 链表的回文结构
