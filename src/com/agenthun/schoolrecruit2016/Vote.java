@@ -35,6 +35,7 @@ public class Vote {
         List<Integer> list = new ArrayList<>();
         list = new LinkedList<>();
         Set<Integer> set = new TreeSet<>();
+        HashMap<Integer, Integer> hashMap = new HashMap<>();
 
         for (int i = n - 1; i > 0; i--) {
             while (i != 1 && (person[i] >= person[i - 1]) && (person[0] <= person[i])) {

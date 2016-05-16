@@ -13,6 +13,7 @@ import java.util.Stack;
  * 返回：true
  */
 public class PalindromeList {
+    //数据进入一个队列,一个栈;分别出来比较
     public boolean chkPalindrome(ListNode A) {
         // write code here
         Stack<Integer> stack = new Stack<>();
