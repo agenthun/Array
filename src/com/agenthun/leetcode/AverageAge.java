@@ -13,13 +13,12 @@ package com.agenthun.leetcode;
  * <p>
  * self 分析:
  * 初始年和 WY,y0=Y
- * 1: 走Wx, 剩W(1-x), y1=[W(1-x)*y0+Wx*21]/W
- * 2: y2=[W(1-x)*y1+Wx*21]/W
- * <p>
- * yn=[W(1-x)*yn-1 + Wx*21]/W
- * Yn=(1-x)Yn-1 + 21x ->
- * Yn - 21 = (1-x)(Yn-1 - 21)
- * Yn = (Y0-21)(1-x)^(n-1)+21
+ * 1: 走Wx, 剩W(1-x), y1=[W(1-x)*(y0+1)+Wx*21]/W
+ * 2: y2=[W(1-x)*(y1+1)+Wx*21]/W
+ * yn=[W(1-x)*(yn-1 + 1) + Wx*21]/W
+ * Yn=(1-x)(Yn-1 + 1)+ 21x ->
+ * Yn + C = (1-x)(Yn-1 + C), C=-(1+20x)/x
+ * Yn = (Y0+C)(1-x)^(n-1)-C
  */
 public class AverageAge {
     public static int getNYearsAge(double y, double x, int n) {
@@ -42,7 +41,8 @@ public class AverageAge {
     }
 
     public int getNYearsAgeSelf(double y, double x, int n) {
-        double res = (y - 21) * getPowerSelf(1 - x, n - 1) + 21;
+        double C = -(1 + 20 * x) / x;
+        double res = (y + C) * getPowerSelf(1 - x, n) - C;
         return (int) Math.ceil(res);
     }
 
@@ -57,9 +57,9 @@ public class AverageAge {
     }
 
     public static void main(String[] args) {
-        int w = 1;
-        double y = 21;
-        double x = 0.9;
+        int w = 168;
+        double y = 26;
+        double x = 0.59;
         int n = 3;
         System.out.println("y = " + y + ", x = " + x + ", n = " + n);
         System.out.println("getNYearsAge(y,x,n) = " + getNYearsAge(y, x, n));
