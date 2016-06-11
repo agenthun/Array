@@ -24,40 +24,39 @@ public class FishingContest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()) {
-            int n = scanner.nextInt();
-            int m = scanner.nextInt();
-            int x = scanner.nextInt();
-            int y = scanner.nextInt();
-            int t = scanner.nextInt();
-            double[][] p = new double[n][m];
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < m; j++) {
-                    p[i][j] = scanner.nextDouble();
+            String[] input = scanner.nextLine().split(" ");
+            int n = Integer.parseInt(input[0]);
+            int m = Integer.parseInt(input[1]);
+            int x = Integer.parseInt(input[2]);
+            int y = Integer.parseInt(input[3]);
+            int t = Integer.parseInt(input[4]);
+
+            double pCC = 0;
+            double pSum = 0;
+
+            for (int i = 1; i <= n; i++) {
+                String[] s = scanner.nextLine().split(" ");
+                for (int j = 1; j <= m; j++) {
+                    double p = Double.parseDouble(s[j - 1]);
+                    pSum += p;
+                    if (i == x && j == y) {
+                        pCC = p;
+                    }
                 }
             }
 
-            double pCC = p[x - 1][y - 1];
-            double pSum = 0;
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < m; j++) {
-                    pSum += p[i][j];
-                }
-            }
             double pSS = pSum / (n * m);
 
             //!注意这里:t个独立事件:P(t1Ut2Ut3..Utn) = 1-P(非t1)P(非t2)...P(非t3)
             if (pSS == pCC) {
                 System.out.println("equal");
-                double px = 1 - Math.pow(1 - pCC, t);
-                System.out.println(String.format("%.2f", px));
+                System.out.println(String.format("%.2f", 1 - Math.pow(1 - pCC, t)));
             } else if (pSS > pCC) {
-                System.out.println("SS");
-                double px = 1 - Math.pow(1 - pSS, t);
-                System.out.println(String.format("%.2f", px));
+                System.out.println("ss");
+                System.out.println(String.format("%.2f", 1 - Math.pow(1 - pSS, t)));
             } else if (pSS < pCC) {
-                System.out.println("CC");
-                double px = 1 - Math.pow(1 - pCC, t);
-                System.out.println(String.format("%.2f", px));
+                System.out.println("cc");
+                System.out.println(String.format("%.2f", 1 - Math.pow(1 - pCC, t)));
             }
         }
     }
