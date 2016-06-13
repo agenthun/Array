@@ -305,4 +305,6 @@
     PalindromeList 链表的回文结构
     FishingContest 钓鱼比赛(百度)
     PlayBasketball 投篮游戏(华为)
-    GetPrimeFactor 质数因子
+    GetPrimeFactor 质数因子分解(乐视暑期实习)
+    GetLastWordLength 字符串最后一个单词的长度(乐视暑期实习)
+    GetSameChar 计算字符个数(乐视暑期实习)
