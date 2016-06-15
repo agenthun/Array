@@ -305,6 +305,9 @@
     PalindromeList 链表的回文结构
     FishingContest 钓鱼比赛(百度)
     PlayBasketball 投篮游戏(华为)
-    GetPrimeFactor 质数因子分解(乐视暑期实习)
-    GetLastWordLength 字符串最后一个单词的长度(乐视暑期实习)
-    GetSameChar 计算字符个数(乐视暑期实习)
+    GetPrimeFactor 质数因子分解(乐视暑期实习模拟)
+    GetLastWordLength 字符串最后一个单词的长度(乐视暑期实习模拟)
+    GetSameChar 计算字符个数(乐视暑期实习模拟)
+    WarcraftFight 兵临城下(乐视暑期实习)
+    WarcraftPay 幻兽交易(乐视暑期实习)
+    WarcraftAttack 禁忌雷炎(乐视暑期实习)
