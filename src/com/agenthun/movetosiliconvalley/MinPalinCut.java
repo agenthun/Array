@@ -24,7 +24,7 @@ public class MinPalinCut {
     }
 
     public static void main(String[] args) {
-        String s = "abb";
+        String s = "abcda";
         System.out.println("s = " + s);
         System.out.println("minPalinCut(s) = " + new MinPalinCut().minPalinCut(s));
     }
