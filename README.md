@@ -313,3 +313,4 @@
     WarcraftAttack 禁忌雷炎(乐视暑期实习)
     MinPalinCut 构造回文,删除最小数量字符构造回文(腾讯实习)
     CharMove 字符移位(腾讯实习)
+    MinMaxNumberCouple 有趣的数字(腾讯实习)
