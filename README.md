@@ -319,3 +319,4 @@
     PalindromeString 回文串(蘑菇街)
     StringSet 字符集合(华为)
     StringFormat 字符串替换(去哪儿)
+    ContinuousSequenceSum 罪犯转移(百度)(类似大众点评 面试题)
