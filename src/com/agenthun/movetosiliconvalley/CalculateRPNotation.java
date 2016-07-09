@@ -1,7 +1,5 @@
 package com.agenthun.movetosiliconvalley;
 
-import com.sun.javadoc.SeeTag;
-
 import java.util.Stack;
 
 /**
