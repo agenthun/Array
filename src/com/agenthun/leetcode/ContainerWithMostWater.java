@@ -2,6 +2,7 @@ package com.agenthun.leetcode;
 
 /**
  * Created by Agent Henry on 2015/8/20.
+ * 看第i个,求i左边最大值MaxLeft,i右边最大值MaxRight,取两者小数,如MaxLeft,求MaxLeft-ai,大于0,则是该i个装水量
  */
 public class ContainerWithMostWater {
     public int maxArea(int[] height) {
