@@ -9,15 +9,15 @@ public class ContainerWithMostWater {
         if (height == null || height.length <= 1) return Integer.MIN_VALUE;
         int len = height.length;
         int result = 0;
-        int l = 0, r = len - 1;
+        int l = 0, r = len - 1; //左右指针
         while (l < r) {
-            result = Math.max(result, Math.min(height[l], height[r]) * (r - l));
-            if (height[l] < height[r]) {
+            result = Math.max(result, Math.min(height[l], height[r]) * (r - l)); //左右指针间的水面积
+            if (height[l] < height[r]) { //左指针更小,左指针遍历两指针间比自己小的则更新自己
                 int k = l;
                 while (k < r && height[k] <= height[l]) k++;
                 l = k;
             } else {
-                int k = r;
+                int k = r; //右指针更小,右指针遍历两指针间比自己小的则更新自己
                 while (k > l && height[k] <= height[r]) k--;
                 r = k;
             }
