@@ -10,11 +10,11 @@ import java.util.Scanner;
 public class RussianDoll {
     class Doll {
         int weight;
-        int hight;
+        int height;
 
-        public Doll(int weight, int hight) {
+        public Doll(int weight, int height) {
             this.weight = weight;
-            this.hight = hight;
+            this.height = height;
         }
 
         public int getWeight() {
@@ -25,12 +25,12 @@ public class RussianDoll {
             this.weight = weight;
         }
 
-        public int getHight() {
-            return hight;
+        public int getHeight() {
+            return height;
         }
 
-        public void setHight(int hight) {
-            this.hight = hight;
+        public void setHeight(int hight) {
+            this.height = height;
         }
     }
 
@@ -39,9 +39,9 @@ public class RussianDoll {
         @Override
         public int compare(Doll o1, Doll o2) {
             if (o1.weight == o2.weight) {
-                if (o1.hight == o2.hight) {
+                if (o1.height == o2.height) {
                     return 0;
-                } else if (o1.hight < o2.hight) {
+                } else if (o1.height < o2.height) {
                     return 1;
                 } else {
                     return -1;
@@ -66,7 +66,7 @@ public class RussianDoll {
 
         Arrays.sort(dolls, new DollComparator());
         int[] ends = new int[a.length];
-        ends[0] = dolls[0].hight;
+        ends[0] = dolls[0].height;
 
         int right = 0;
         int l = 0;
@@ -78,7 +78,7 @@ public class RussianDoll {
             r = right;
             while (l <= r) {
                 m = (l + r) / 2;
-                if (dolls[i].hight > ends[m]) {
+                if (dolls[i].height > ends[m]) {
                     l = m + 1;
                 } else {
 
@@ -86,7 +86,7 @@ public class RussianDoll {
                 }
             }
             right = Math.max(right, l);
-            ends[l] = dolls[i].hight;
+            ends[l] = dolls[i].height;
         }
         return right + 1;
     }
