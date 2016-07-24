@@ -22,7 +22,7 @@ public class Duplicate {
     //                     otherwise false
     public boolean duplicate(int numbers[], int length, int[] duplication) {
         if (numbers == null || numbers.length == 0 || numbers.length != length) return false;
-        Map<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>(); //使用HashMap将number,出现的次数绑定
         for (int i = 0; i < numbers.length; i++) {
             if (map.containsKey(numbers[i])) {
                 map.put(numbers[i], map.get(numbers[i]) + 1);
@@ -32,10 +32,10 @@ public class Duplicate {
         }
 
         boolean result = false;
-        Iterator iterator = map.entrySet().iterator();
+        Iterator iterator = map.entrySet().iterator(); //获取HashMap的迭代器
         while (iterator.hasNext()) {
             Map.Entry entry = (Map.Entry) iterator.next();
-            if (((int) entry.getValue()) > 1) {
+            if (((int) entry.getValue()) > 1) { //找出次数大于1的值
                 duplication[0] = (int) entry.getKey();
                 return true;
             }
