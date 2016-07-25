@@ -41,9 +41,9 @@ public class FindContinuousSequence {
         return result;*/
 
         // solution 2
-        for (int i = 1; i <= ((sum - 1) >> 1); i++) {
+        for (int i = 1; i <= ((sum - 1) >> 1); i++) { //结束即(sum-1)/2
             int end = i + 1;
-            int curSum = ((i + end) * (end - i + 1)) >> 1;
+            int curSum = ((i + end) * (end - i + 1)) >> 1; //i到end项的和
             LinkedList<Integer> list = new LinkedList<>();
             list.add(i);
             while (curSum <= sum) {
