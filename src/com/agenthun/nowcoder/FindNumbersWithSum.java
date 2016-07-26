@@ -12,17 +12,19 @@ public class FindNumbersWithSum {
         ArrayList<Integer> result = new ArrayList<>();
         if (array == null || array.length == 0) return result;
 
+        //左右指针两头遍历
         int left = 0, right = array.length - 1;
         int mux = Integer.MAX_VALUE;
         while (left < right) {
             int sumTemp = array[left] + array[right];
-            if (sumTemp > sum)
+            if (sumTemp > sum) //和大于目标,右指针移动
                 right--;
-            else if (sumTemp < sum)
+            else if (sumTemp < sum)//和小于目标,左指针移动
                 left++;
             else {
-                int temp = array[left] * array[right];
+                int temp = array[left] * array[right]; //判断乘积
                 if (temp < mux) {
+                    result = new ArrayList<>();
                     mux = temp;
                     result.add(array[left]);
                     result.add(array[right]);
