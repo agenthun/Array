@@ -11,10 +11,11 @@ public class FindPath {
         ArrayList<ArrayList<Integer>> pathAll = new ArrayList<>();
         if (root == null) return pathAll;
 
-        Stack<Integer> stack = new Stack<>();
-        findPathHelper(root, target, pathAll, stack, 0);
+        Stack<Integer> stack = new Stack<>(); //栈用于存当前遍历过的结点
+        findPathHelper(root, target, pathAll, stack, 0); //递归
         return pathAll;
     }
+
 
     private void findPathHelper(TreeNode root, int target, ArrayList<ArrayList<Integer>> lists, Stack<Integer> stack, int sum) {
         if (root == null) {

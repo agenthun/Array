@@ -16,6 +16,7 @@ public class FirstAppearingOnce {
     ArrayList<Character> list = new ArrayList<>();
 
     //Insert one char from stringstream
+    //字符加入List
     public void Insert(char ch) {
         if (map.containsKey(ch)) {
             map.put(ch, map.get(ch) + 1);
@@ -31,6 +32,7 @@ public class FirstAppearingOnce {
 
         for (char ch :
                 list) {
+            //遍历list,由键找值,值为1即出现一次
             if (map.get(ch) == 1) {
                 c = ch;
                 break;
