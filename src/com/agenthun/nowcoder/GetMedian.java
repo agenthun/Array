@@ -1,6 +1,7 @@
 package com.agenthun.nowcoder;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -12,6 +13,7 @@ import java.util.List;
 public class GetMedian {
     List<Integer> list = new ArrayList<>();
 
+    //内置排序, List用Collections, 数组用Arrays
     public void Insert(Integer num) {
         list.add(num);
         Collections.sort(list);
@@ -23,6 +25,8 @@ public class GetMedian {
         if (size == 0) return 0.0;
 
         int mid = size >> 1;
+
+        //通过长度是否奇数/偶数
         if ((size & 1) == 1) {
             result = list.get(mid);
         } else {

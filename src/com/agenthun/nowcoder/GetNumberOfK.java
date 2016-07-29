@@ -5,6 +5,7 @@ package com.agenthun.nowcoder;
  * 统计一个数字在排序数组中出现的次数。
  */
 public class GetNumberOfK {
+    //一次遍历,统计k次数
     public int GetNumberOfK(int[] array, int k) {
         if (array == null || array.length == 0) return 0;
 
