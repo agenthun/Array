@@ -331,3 +331,5 @@
     RussianDoll 俄罗斯套娃
     MaximumSubarrayInTwoArray 两数组中最大子元素和
     MaxSumLength 数组中和为k的最大子串
+    NarcissusNumber 水仙花数
+    ArraySum 求数列的和
