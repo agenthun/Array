@@ -333,3 +333,7 @@
     MaxSumLength 数组中和为k的最大子串
     NarcissusNumber 水仙花数
     ArraySum 求数列的和
+    TwoArraySpecialSmallSequence 两有序序列M和N，在M中找子序列小于N的子序列子集(赛码网内推节)
+    IntervalKPrimeNum 求整数区间内最小因数为k的数的数目(赛码网内推节)(AC 10%,time out)
+    PokerWinner 扑克牌游戏计分获胜者(赛码网内推节)(AC 20%)
+    Kaprekar 数字黑洞
