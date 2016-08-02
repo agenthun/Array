@@ -337,3 +337,6 @@
     IntervalKPrimeNum 求整数区间内最小因数为k的数的数目(赛码网内推节)(AC 10%,time out)
     PokerWinner 扑克牌游戏计分获胜者(赛码网内推节)(AC 20%)
     Kaprekar 数字黑洞
+    Cooking 下厨房(2017网易校招提前批)
+    MatrixRunAway 地牢逃脱(2017网易校招提前批)(not complete)
+    MaxPowerMux 最大能力值乘积(2017网易校招提前批)(AC 20%)
