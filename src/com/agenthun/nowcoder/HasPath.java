@@ -12,7 +12,7 @@ public class HasPath {
     public boolean hasPath(char[] matrix, int rows, int cols, char[] str) {
         if (matrix == null || matrix.length == 0) return false;
 
-        boolean flag[] = new boolean[matrix.length];
+        boolean flag[] = new boolean[matrix.length]; //"矩阵"的长度,即每一格的数组标志位
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (helper(matrix, rows, cols, str, i, j, 0, flag))
@@ -22,20 +22,21 @@ public class HasPath {
         return false;
     }
 
+    //i,j象征矩阵某点坐标,rows,cols矩阵行列,k字符串指针,flag判断有误走过
     private boolean helper(char[] matrix, int rows, int cols, char[] str, int i, int j, int k, boolean[] flag) {
-        int index = i * cols + j;
+        int index = i * cols + j; //转一维数组的位置指针,指向"矩阵"
         if (i < 0 || i >= rows || j < 0 || j >= cols || matrix[index] != str[k] || flag[index] == true) {
             return false;
         }
         if (k == str.length - 1) return true;
-        flag[index] = true;
+        flag[index] = true;//走过
         if (helper(matrix, rows, cols, str, i - 1, j, k + 1, flag)
                 || helper(matrix, rows, cols, str, i + 1, j, k + 1, flag)
                 || helper(matrix, rows, cols, str, i, j - 1, k + 1, flag)
                 || helper(matrix, rows, cols, str, i, j + 1, k + 1, flag)) {
             return true;
         }
-        flag[index] = false;
+        flag[index] = false; //清楚轨迹,再找
         return false;
     }
 
