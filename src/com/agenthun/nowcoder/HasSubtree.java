@@ -10,9 +10,9 @@ public class HasSubtree {
 
         boolean result = false;
         if (root1 != null && root2 != null) {
-            if (root1.val == root2.val)
+            if (root1.val == root2.val) //值相同,开始递归遍历
                 result = doesTree1HaveTree2(root1, root2);
-            if (!result)
+            if (!result) //不相同,找左右子树里的
                 return HasSubtree(root1.left, root2) || HasSubtree(root1.right, root2);
         }
         return result;
@@ -20,11 +20,11 @@ public class HasSubtree {
 
     private boolean doesTree1HaveTree2(TreeNode root1, TreeNode root2) {
         if (root2 == null) return false;
-        else if (root1 == null) return false;
+        else if (root1 == null) return false; //为null即舍弃
 
-        if (root1.val != root2.val)
+        if (root1.val != root2.val) //值不同也舍弃
             return false;
-        else
+        else //遍历相同值的左右子树
             return doesTree1HaveTree2(root1.left, root2.left) &&
                     doesTree1HaveTree2(root1.right, root2.right);
     }
