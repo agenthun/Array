@@ -10,11 +10,12 @@ public class IsBalanced {
         return getHeight(root) != -1;
     }
 
+    //平衡二叉树,左右子树+1,-1,0
     private static int getHeight(TreeNode root) {
         if (root == null) return 0;
-        int leftHeight = getHeight(root.left);
+        int leftHeight = getHeight(root.left); //递归左子树
         if (leftHeight == -1) return -1;
-        int rightHeight = getHeight(root.right);
+        int rightHeight = getHeight(root.right); //递归右子树
         if (rightHeight == -1) return -1;
 
         if (Math.abs(leftHeight - rightHeight) > 1) return -1;
