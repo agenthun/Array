@@ -17,17 +17,17 @@ public class IsPopOrder {
             return false;
 
         int point1 = 0;
-        Stack<Integer> stack = new Stack<>();
+        Stack<Integer> stack = new Stack<>();//建栈
         for (int i = 0; i < popA.length; i++) {
-            if (!stack.isEmpty() && stack.peek() == popA[i]) {
+            if (!stack.isEmpty() && stack.peek() == popA[i]) { //与输出序列做比较，相同弹出
                 stack.pop();
             } else {
                 if (point1 == pushA.length) return false;
                 else {
                     do {
                         stack.push(pushA[point1++]);
-                    } while (stack.peek() != popA[i] && point1 != pushA.length);
-                    if (stack.peek() == popA[i])
+                    } while (stack.peek() != popA[i] && point1 != pushA.length);//不相等，一直加
+                    if (stack.peek() == popA[i])//再次频道相同则弹出
                         stack.pop();
                     else
                         return false;
