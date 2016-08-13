@@ -340,3 +340,5 @@
     Cooking 下厨房(2017网易校招提前批)
     MatrixRunAway 地牢逃脱(2017网易校招提前批)(not complete)
     MaxPowerMux 最大能力值乘积(2017网易校招提前批)(AC 20%)
+    SwapWithZero 交换0元素
+    PrintNPrimes 输出前N个素数
