@@ -18,15 +18,15 @@ public class KthNode {
         TreeNode result = null;
         int index = 0;
 
-        pushLeft(stack, pRoot);
-        while (!stack.isEmpty()) {
+        pushLeft(stack, pRoot); //将左节点push到栈中
+        while (!stack.isEmpty()) { //取最左节点
             TreeNode node = stack.pop();
 //            System.out.print(node.val + " ");
-            if (++index >= k) {
+            if (++index >= k) { //判断是否是第K个
                 result = node;
                 break;
             }
-            if (node.right != null) {
+            if (node.right != null) { //有右节点，将右节点开始的左节点push
                 pushLeft(stack, node.right);
             }
         }
