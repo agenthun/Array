@@ -14,7 +14,7 @@ public class MaxInWindows {
     public ArrayList<Integer> maxInWindows(int[] num, int size) {
         ArrayList<Integer> result = new ArrayList<>();
         if (num == null || num.length == 0 || size == 0 || size > num.length) return result;
-        if (size == num.length) {
+        if (size == num.length) { //数组长度为窗口大小,则找最大数
             int max = num[0];
             for (int i = 1; i < num.length; i++) {
                 if (max < num[i]) max = num[i];
@@ -23,6 +23,7 @@ public class MaxInWindows {
             return result;
         }
 
+        //无技巧,一个指针偏移,在偏移内求最大值
         for (int i = 0; (i + size - 1) < num.length; i++) {
             int max = num[i];
             for (int j = i + 1; j < (i + size); j++) {
