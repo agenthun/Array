@@ -342,3 +342,4 @@
     MaxPowerMux 最大能力值乘积(2017网易校招提前批)(AC 20%)
     SwapWithZero 交换0元素
     PrintNPrimes 输出前N个素数
+    NumberScramble 洗牌(2017网易有道提前批)
