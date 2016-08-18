@@ -343,3 +343,4 @@
     SwapWithZero 交换0元素
     PrintNPrimes 输出前N个素数
     NumberScramble 洗牌(2017网易有道提前批)
+    FindRect 查找矩形(2017网易有道提前批 not AC)
