@@ -344,3 +344,4 @@
     PrintNPrimes 输出前N个素数
     NumberScramble 洗牌(2017网易有道提前批)
     FindRect 查找矩形(2017网易有道提前批 not AC)
+    BuildJosephArray 构造队列(2017网易有道提前批 not AC)
