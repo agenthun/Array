@@ -347,3 +347,7 @@
     BuildJosephArray 构造队列(2017网易有道提前批 not AC)
     IntersetionArray 求两数组交集(2011 Google)
     CircleRoad 环形公路(2012 Google)
+    Parentheses 平衡字符串括号匹配 (2016 Google)
+    GymSecrets 找出i,j组数 (2016 Google)
+    MatchScore 比赛打分(2017爱奇艺校招)
+    StockExchange 股票交易(2017爱奇艺校招)
