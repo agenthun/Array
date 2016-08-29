@@ -18,7 +18,8 @@ public class Parentheses {
             int l = scanner.nextInt();
             int r = scanner.nextInt();
 
-            int res = 0;
+            int res = Math.min(l, r);
+            res = res * (res + 1) / 2;
             System.out.println("Case #" + i + ": " + res);
             pw.println("Case #" + i + ": " + res);
         }
