@@ -27,8 +27,8 @@ public class PlayBasketball {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()) {
-            int p = scanner.nextInt();
-            int n = scanner.nextInt();
+            int p = scanner.nextInt(); //p个框
+            int n = scanner.nextInt(); //n个球
             HashMap<Integer, Integer> map = new HashMap<>();
             int[] x = new int[n];
             int res = -1;
@@ -38,9 +38,9 @@ public class PlayBasketball {
             }
 
             for (int i = 0; i < n; i++) {
-                int temp = x[i] % p;
-                if (map.containsKey(temp)) {
-                    res = i + 1;
+                int temp = x[i] % p; //求余数
+                if (map.containsKey(temp)) { //放到框里
+                    res = i + 1;//计数
                     break;
                 } else {
                     map.put(temp, 1);
