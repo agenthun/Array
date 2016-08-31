@@ -6,6 +6,7 @@ import java.util.HashMap;
  * Created by agenthun on 15/11/17.
  */
 public class LRUCache {
+    //Node 双向链表,每个节点是一个键值对
     class Node {
         int key;
         int value;
@@ -29,23 +30,26 @@ public class LRUCache {
         this.capacity = capacity;
     }
 
+    //根据Map的键获取出(移出)Node值
     public int get(int key) {
         if (map.containsKey(key)) {
             Node n = map.get(key);
-            remove(n);
-            setHead(n);
+            remove(n); //移出node
+            setHead(n); //重新设置node头节点
             return n.value;
         }
         return -1;
     }
 
     public void remove(Node n) {
+        //修改node前一节点的next
         if (n.pre != null) {
             n.pre.next = n.next;
         } else {
             head = n.next;
         }
 
+        //修改node后一节点的pre
         if (n.next != null) {
             n.next.pre = n.pre;
         } else {
@@ -66,6 +70,7 @@ public class LRUCache {
         }
     }
 
+    //设置Map的键值对
     public void set(int key, int value) {
         if (map.containsKey(key)) {
             Node old = map.get(key);
@@ -75,6 +80,7 @@ public class LRUCache {
         } else {
             Node created = new Node(key, value);
             if (map.size() >= capacity) {
+                //移除最近不使用的元素
                 map.remove(end.key);
                 remove(end);
                 setHead(created);
