@@ -352,3 +352,4 @@
     MatchScore 比赛打分(2017爱奇艺校招)
     StockExchange 股票交易(2017爱奇艺校招)
     SpiralMatrixTencent 旋转矩阵(2017腾讯模拟)
+    PerfectSquareSum 求完全平方数和为n的个数(2017创新工场)
