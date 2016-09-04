@@ -354,3 +354,5 @@
     SpiralMatrixTencent 旋转矩阵(2017腾讯模拟)
     PerfectSquareSum 求完全平方数和为n的个数(2017创新工场)
     ReOrderNodeList 调整链表顺序使奇数位于偶数前面,保持相反的稳定性(2017创新工场)
+    MaximumSubMatrixSum 最大子矩阵和、子矩阵和为K的最大子矩阵(类似 #LeetCode - MaximumSubarray 最大子元素和, MaxSumLength)
+    MaxLengthSubArray 最长子数组LIS(不需连续)(may not right)
