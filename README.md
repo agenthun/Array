@@ -180,7 +180,7 @@
     ReverseBits 旋转比特位
     NumberOf1Bits 1的个数
     MissingNumber 找出消失的数
-    WordBreak 判断单词能否拆分
+    WordBreak 判断单词能否拆分(*动态规划)
     BasicCalculator 实现加减识别括号计算器
     ReverseWordsInAString 翻转字符串中单词
     AddDigits 按位加法 (http://my.oschina.net/Tsybius2014/blog/497645)
