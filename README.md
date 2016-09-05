@@ -356,3 +356,5 @@
     ReOrderNodeList 调整链表顺序使奇数位于偶数前面,保持相反的稳定性(2017创新工场)
     MaximumSubMatrixSum 最大子矩阵和、子矩阵和为K的最大子矩阵(类似 #LeetCode - MaximumSubarray 最大子元素和, MaxSumLength)
     MaxLengthSubArray 最长子数组LIS(不需连续)(may not right)
+    ClimbMount 爬山(2017京东校招 AC 20%)
+    NSystemSum 一个数的N进制各位和(2017京东校招)
