@@ -358,3 +358,5 @@
     MaxLengthSubArray 最长子数组LIS(不需连续)(may not right)
     ClimbMount 爬山(2017京东校招 AC 20%)
     NSystemSum 一个数的N进制各位和(2017京东校招)
+    NFindKNumbersModT 求1~10000中缺的3个数(2017大众点评校招提前批)
+    UniquePaths 方格求路径数(2017大众点评校招提前批)(#LeetCode - UniquePaths)
