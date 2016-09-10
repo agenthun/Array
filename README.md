@@ -360,3 +360,6 @@
     NSystemSum 一个数的N进制各位和(2017京东校招)
     NFindKNumbersModT 求1~10000中缺的3个数(2017大众点评校招提前批)
     UniquePaths 方格求路径数(2017大众点评校招提前批)(#LeetCode - UniquePaths)
+    SqrtSum 求前m项n的开方和
+    PermDictionaryK 第K个字典序(2017腾讯校招)
+    Read1024Bit 读写位(2017腾讯校招)
