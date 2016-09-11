@@ -363,3 +363,5 @@
     SqrtSum 求前m项n的开方和
     PermDictionaryK 第K个字典序(2017腾讯校招)
     Read1024Bit 读写位(2017腾讯校招)
+    CountWaysDianping 换零钱(2017大众点评校招)(#SchoolRecruit2016 - CountWays)
+    StringSum 字符串加法(2017大众点评校招)
