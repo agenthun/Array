@@ -365,3 +365,6 @@
     Read1024Bit 读写位(2017腾讯校招)
     CountWaysDianping 换零钱(2017大众点评校招)(#SchoolRecruit2016 - CountWays)
     StringSum 字符串加法(2017大众点评校招)
+    ReverseSum 翻转两数字相加再翻转(2017网易校招)
+    ExternCombination 求组合数(2017网易校招)
+    MinPalinCutSum 求回文结构可两两相加(2017网易校招)
