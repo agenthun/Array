@@ -369,3 +369,5 @@
     ExternCombination 求组合数(2017网易校招 AC 10%)
     MinPalinCutSum 求回文结构可两两相加(2017网易校招 AC 20%)
     FactorialSum 求阶乘和(2017招商银行信用卡校招)
+    BinSearchII 二分查找(2017携程校招)
+    MinFullDist 遍历最短路径长度(2017携程校招 not AC)
