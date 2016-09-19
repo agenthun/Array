@@ -371,4 +371,5 @@
     FactorialSum 求阶乘和(2017招商银行信用卡校招)
     BinSearchII 二分查找(2017携程校招)
     MinFullDist 遍历最短路径长度(2017携程校招 not AC)
+    PrintNPrime 输出第N个素数(2017触宝科技提前批)
     FourSumII 找出两对两个数相加和相同(2017触宝科技提前批)
