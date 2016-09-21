@@ -8,6 +8,7 @@ package com.agenthun.schoolrecruit2016;
  * 保证一定存在合法路径。保证矩阵的长宽都小于等于10。
  * 测试样例：[[0,1,0],[2,0,0]],2,3
  * 返回：2
+ * 对比 MatrixRunAway地牢逃脱(2017网易校招提前批)
  */
 public class Visit {
     public int countPath(int[][] map, int n, int m) {
@@ -17,22 +18,22 @@ public class Visit {
         int x1 = -1, y1 = -1, x2 = -1, y2 = -1;
         for (int i = 0; i < map.length; i++) {
             for (int j = 0; j < map[0].length; j++) {
-                if (map[i][j] == 1) {
-                    x1 = i;
+                if (map[i][j] == 1) { //经理位置
+                    x1 = i; //获取位置坐标x,y
                     y1 = j;
-                    if (x2 != -1)
+                    if (x2 != -1) //判断是否能经过
                         break;
                 }
-                if (map[i][j] == 2) {
-                    x2 = i;
+                if (map[i][j] == 2) { //商家位置
+                    x2 = i; //获取位置坐标x,y
                     y2 = j;
-                    if (x1 != -1)
+                    if (x1 != -1) //判断是否能经过
                         break;
                 }
             }
         }
-        int xs = x1 < x2 ? 1 : (-1);
-        int ys = y1 < y2 ? 1 : (-1);
+        int xs = x1 < x2 ? 1 : (-1); //经理在商家上侧为1，否则-1
+        int ys = y1 < y2 ? 1 : (-1); //经理在商家左侧为1，否则-1
         for (int j = y1; j != y2 + ys; j = j + ys) {
             map[x1][j] = j == y1 ? 1 : (map[x1][j] == -1 ? 0 : (map[x1][j - ys]));
             for (int i = x1 + xs; i != x2 + xs; i = i + xs) {
