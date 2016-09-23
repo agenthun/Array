@@ -41,8 +41,8 @@ public class CombinationSumII {
     }
 
     public static void main(String[] args) {
-        int[] a = {10, 1, 2, 7, 6, 1, 5};
-        int target = 8;
+        int[] a = {5, 5, 10, 2, 3};
+        int target = 15;
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
         }

@@ -373,3 +373,5 @@
     MinFullDist 遍历最短路径长度(2017携程校招 not AC)
     PrintNPrime 输出第N个素数(2017触宝科技提前批)
     FourSumII 找出两对两个数相加和相同(2017触宝科技提前批)
+    MtoNSystem 十进制M转N进制,超过9已A,B..表示(2017滴滴校招 AC 70%)
+    CombinationSum 有重复数字和为sum的方法数(2017滴滴校招 AC 50%)(类似 #Leetcode - CombinationSumII)
