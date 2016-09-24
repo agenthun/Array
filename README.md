@@ -6,7 +6,7 @@
     MaxSubArraySum 求最大子数组和以及位置区间
     FindMostFrequentInArray 找数组中重复元素最多的数
     FindSum 有序数中找两两相加和为20的组合
-    ShiftK 向右循环移K位
+    ShiftK 向右循环移K位(2017小红书校招)
     KMin 第K个最小数
     KMinInArrays 在两有序数组找第K个最小数
     FindNotDouble 找只出现一次的元素

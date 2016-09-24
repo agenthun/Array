@@ -1,5 +1,7 @@
 package com.agenthun.array;
 
+import java.util.Scanner;
+
 /**
  * Created by Agent Henry on 2015/7/17.
  */
@@ -21,14 +23,16 @@ public class ShiftK {
     }
 
     public static void main(String[] args) {
-        int[] a = {1, 2, 3, 4, 5, 6, 7, 8};
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + ", ");
-        }
-        shiftK(a, 2);
-        System.out.println("\r\n向右循环移2位");
-        for (int i = 0; i < a.length; i++) {
-            System.out.print(a[i] + ", ");
+        Scanner scanner = new Scanner(System.in);
+        while (scanner.hasNext()) {
+            int n = scanner.nextInt();
+            int[] a = new int[n];
+            for (int i = 0; i < a.length; i++) {
+                a[i] = scanner.nextInt();
+            }
+
+            int k = scanner.nextInt();
+            shiftK(a, k);
         }
     }
 }
