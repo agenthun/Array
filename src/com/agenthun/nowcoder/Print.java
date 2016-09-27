@@ -16,8 +16,8 @@ public class Print {
 
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(pRoot);
-        int current = 1;
-        int next = 0;
+        int current = 1; //第n层有m个节点
+        int next = 0; //第n层的累加节点数
 
         while (!queue.isEmpty()) {
             TreeNode node = queue.poll();
@@ -33,7 +33,7 @@ public class Print {
                 next++;
             }
 
-            if (current == 0) {
+            if (current == 0) { //当第n层有m个节点剩0时，重置第n+1层总节点，利用第n层的累加节点数赋值
                 result.add(list);
                 list = new ArrayList<>();
                 current = next;

@@ -211,7 +211,7 @@
     Permutation 字符串的排列(含重复字符)
     Mirror 二叉树的镜像
     PrintFromTopToBottom 从上往下打印二叉树
-    Print 把二叉树打印成多行(#NowCoder - PrintFromTopToBottom从上往下打印二叉树)
+    Print 把二叉树打印成多行(#NowCoder - PrintFromTopToBottom从上往下打印二叉树)(2017小红书1面)
     PrintZigZag 按之字形顺序打印二叉树(类似 #NowCoder - Print)
     IsBalanced 判断是否是平衡二叉树
     VerifySquenceOfBST 判断,二叉搜索树的后序遍历序列
