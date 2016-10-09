@@ -75,7 +75,7 @@
     MinWindow 最小字符窗口
     FindSubString 单词拼接
     FindBestLine 经过最多点直线
-    LCA 最小公共祖先
+    LCA 最小公共祖先(2017蜻蜓FM校招)
     LCAII 最小公共祖先II
     LCAIII 最小公共祖先III
     LCAIV 最小公共祖先IV

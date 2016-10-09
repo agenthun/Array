@@ -2,6 +2,7 @@ package com.agenthun.movetosiliconvalley;
 
 /**
  * Created by agenthun on 15/11/20.
+ * 求二叉树两节点公共最近祖先
  */
 public class LCA {
     TreeNode LCA(TreeNode root, TreeNode p, TreeNode q) {
@@ -23,7 +24,8 @@ public class LCA {
         treeNode.left.right = new TreeNode(4);
         treeNode.right.right = new TreeNode(9);
 
-        TreeNode node = new LCA().LCA(treeNode, new TreeNode(3), new TreeNode(4));
+        TreeNode node = new LCA().LCA(treeNode, new TreeNode(1), new TreeNode(4));
+        System.out.println(node.val);
     }
 }
 
