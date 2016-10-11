@@ -3,13 +3,14 @@ package com.agenthun.movetosiliconvalley;
 /**
  * Created by agenthun on 15/11/20.
  * 求二叉树两节点公共最近祖先
+ * 注意二叉树为搜索二叉树
  */
 public class LCA {
     TreeNode LCA(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null || p == null || q == null) return null;
-        if (root.val > p.val && root.val > q.val) {
+        if (root.val > p.val && root.val > q.val) { //根都大于两子节点，找左结点
             return LCA(root.left, p, q);
-        } else if (root.val < p.val && root.val < q.val) {
+        } else if (root.val < p.val && root.val < q.val) { //根都小于于两子节点，找右结点
             return LCA(root.right, p, q);
         } else {
             return root;

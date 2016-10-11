@@ -3,6 +3,8 @@ package com.agenthun.nowcoder;
 /**
  * Created by agenthun on 16/1/16.
  * 找第一个相同的结点
+ * 注意是两单链表
+ * 有共同节点即，成"Y"型，但两长度可能不一样，所以先取长度长的遍历到长度差为至，此时开始同时遍历两链表
  */
 public class FindFirstCommonNode {
     public ListNode FindFirstCommonNode(ListNode pHead1, ListNode pHead2) {
