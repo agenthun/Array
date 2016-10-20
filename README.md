@@ -39,7 +39,7 @@
     EditDistance 编辑距离,从字符串a转到字符串b
     IsInterleave 交替字符串,判断c是否由a,b组成
     MinPalinCut 回文分割
-    LCS 最大公共子串
+    LCS 最大公共子串(2017途牛旅游网校招)
     IsScramble 字符串洗牌
     MergeTwoSortedArrays 合并两有序数组
     ComputePerm 数组签名 (not complete)
@@ -109,7 +109,7 @@
     ZigZagConversion 将字符串以之字形排列
     ReverseInteger 整数反转
     MedianOfTwoSortedArrays 找出两有序数组中位数(#List - KMinInArrays)
-    StringToInteger String转Integer
+    StringToInteger String转Integer(2017饿了么校招)
     PalindromeNumber 不用多于空间判断数是否为回文数
     RegularExpressionMatching 模糊匹配(.*)
     ContainerWithMostWater 求最大面积(贪心算法) (http://blog.csdn.net/a83610312/article/details/8548519)
@@ -376,4 +376,5 @@
     FourSumII 找出两对两个数相加和相同(2017触宝科技提前批)
     MtoNSystem 十进制M转N进制,超过9已A,B..表示(2017滴滴校招 AC 70%)
     CombinationSum 有重复数字和为sum的方法数(2017滴滴校招 AC 50%)(类似 #Leetcode - CombinationSumII)
+    DeleteSameCharacter 小写字母字符串删除相同的字符使最后字典序最小(2017饿了么校招)
     
