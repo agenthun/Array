@@ -32,11 +32,11 @@ public class Kth {
             if (i < j) a[j--] = a[i];
         }
         a[i] = x;
-        if (i + 1 == indexK)
+        if (i + 1 == indexK) //注意是比较k与i+1的值
             return x;
-        else if (i + 1 > indexK)
+        else if (i + 1 > indexK) //k < i+1, 则在前半部份
             return qsort_once(a, l, i - 1, indexK);
-        else
+        else ////k > i+1, 则在后半部份
             return qsort_once(a, i + 1, r, indexK);
     }
 
