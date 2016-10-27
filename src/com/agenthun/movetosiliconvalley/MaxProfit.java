@@ -7,10 +7,10 @@ public class MaxProfit {
     int maxProfit(int[] prices) {
         if (prices.length == 0) return 0;
         int profit = 0;
-        int min = prices[0];
+        int min = prices[0]; //注意是股票价的最小值
         for (int i = 1; i < prices.length; i++) {
-            min = Math.min(min, prices[i]);
-            profit = Math.max(profit, prices[i] - min);
+            min = Math.min(min, prices[i]); //变更股票最小值
+            profit = Math.max(profit, prices[i] - min); //更新最大获利
         }
         return profit;
     }

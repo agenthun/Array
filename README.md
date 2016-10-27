@@ -30,7 +30,7 @@
     MinProduct 最小数组乘积
     MaxHistogramArea 最大四边形
     Fibonacci 斐波那契数
-    MaxProfit 股票买卖
+    MaxProfit 股票买卖(2017喜马拉雅校招)
     MaxProfitII 股票买卖II
     MinPathSum 方格求最小路径和 (#LeetCode - UniquePaths)
     MinTrianglePathSum 三角形求最小路径和 (#LeetCode - UniquePaths)
