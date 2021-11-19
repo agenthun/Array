@@ -377,4 +377,5 @@
     MtoNSystem 十进制M转N进制,超过9已A,B..表示(2017滴滴校招 AC 70%)
     CombinationSum 有重复数字和为sum的方法数(2017滴滴校招 AC 50%)(类似 #Leetcode - CombinationSumII)
     DeleteSameCharacter 小写字母字符串删除相同的字符使最后字典序最小(2017饿了么校招)
+    Count36 36进制加法(字节跳动社招)
     
